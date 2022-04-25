@@ -1,0 +1,38 @@
+[RESOURCES]
+Registration Officer
+Vaccinator
+Screening Nurse
+[VARIABLES]
+On Site Registration.WaitTime
+Health Screening.WaitTime
+QR Code Verification.NumberIn
+Vaccination Patient Arrival.NumberOut
+Vaccination Patient Departs.NumberOut
+On Site Registration.VATime
+Registration Type.NumberOut True
+Online Registration.NumberIn
+Health Screening.NumberIn
+Online Registration.NumberOut
+Vaccination.VATime
+Health Screening.NumberOut
+is On Site Registered Patient?.NumberOut False
+Vaccination.NumberOut
+Vaccination.NumberIn
+High Temp or Severe Signs of Illness?.NumberOut True
+Online Registration.VATime
+is On Site Registered Patient?.NumberOut True
+High Temp or Severe Signs of Illness?.NumberOut False
+Vaccination.WaitTime
+Monitoring.VATime
+QR Code Verification.VATime
+Verification Success?.NumberOut True
+QR Code Verification.NumberOut
+On Site Registration.NumberOut
+Monitoring.NumberOut
+Monitoring.NumberIn
+Registration Type.NumberOut False
+Health Screening.VATime
+Verification Success?.NumberOut False
+Not in Priority Group?.NumberOut True
+Not in Priority Group?.NumberOut False
+On Site Registration.NumberIn
