@@ -9,5 +9,5 @@ MaxScanRows=8
 MaxBufferSize=2048
 FIL=MS Access
 DriverId=281
-DefaultDir=C:\Users\Bryan\Documents
-DBQ=E:\School\BSCS 3\323\FinalProject\ABCD_Covid-19_Vaccination_System_Model.accdb
+DefaultDir=c:\Users\Bryan\Documents\GitHub\CS323-FinalProject\FinalProject
+DBQ=C:\Users\Bryan\Documents\GitHub\CS323-FinalProject\FinalProject\ABCD_Covid-19_Vaccination_System_Model.accdb
