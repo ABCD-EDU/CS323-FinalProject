@@ -4,8 +4,8 @@
 
                                   Summary for Replication 1 of 1
 
-Project: Covid                                                       Run execution date : 4/27/2022
-Analyst: Bryan                                                       Model revision date: 4/27/2022
+Project: Covid                                                       Run execution date : 5/ 2/2022
+Analyst: Bryan                                                       Model revision date: 5/ 2/2022
 
 Replication ended at time      : 480.0 Minutes 
 Base Time Units: Minutes
@@ -16,52 +16,52 @@ Identifier                                  Average   Half Width  Minimum    Max
 ___________________________________________________________________________________________________
 
 Monitoring.VATimePerEntity                  407.05     (Insuf)    376.02     438.02          6    
-Vaccination.TotalTimePerEntity              3.3769     (Insuf)    2.1022     4.7828         54    
-Health Screening.WaitTimePerEntity          24.303     (Insuf)    .00000     85.622         67    
-Vaccination.WaitTimePerEntity               .00000     (Insuf)    .00000     .00000         54    
-QR Code Verification.VATimePerEntity        1.0000     (Insuf)    1.0000     1.0000         87    
-Health Screening.TotalTimePerEntity         31.082     (Insuf)    4.9551     95.470         67    
-Health Screening.VATimePerEntity            6.7791     (Insuf)    4.2281     11.462         67    
-On Site Registration.WaitTimePerEntity      96.562     (Insuf)    .00000     177.77         58    
-Vaccination.VATimePerEntity                 3.3769     (Insuf)    2.1022     4.7828         54    
-On Site Registration.TotalTimePerEntity     104.50     (Insuf)    6.4537     186.39         58    
+Vaccination.TotalTimePerEntity              3.3984     (Insuf)    2.1022     4.9073         55    
+Health Screening.WaitTimePerEntity          47.601     (Insuf)    .00000     147.44         66    
+Vaccination.WaitTimePerEntity               .00000     (Insuf)    .00000     .00000         55    
+QR Code Verification.VATimePerEntity        1.0000     (Insuf)    1.0000     1.0000        102    
+Health Screening.TotalTimePerEntity         54.712     (Insuf)    4.9551     154.03         66    
+Health Screening.VATimePerEntity            7.1109     (Insuf)    4.2046     10.893         66    
+On Site Registration.WaitTimePerEntity      64.757     (Insuf)    .00000     125.11         59    
+Vaccination.VATimePerEntity                 3.3984     (Insuf)    2.1022     4.9073         55    
+On Site Registration.TotalTimePerEntity     72.603     (Insuf)    6.4537     134.89         59    
 Monitoring.TotalTimePerEntity               407.05     (Insuf)    376.02     438.02          6    
-On Site Registration.VATimePerEntity        7.9460     (Insuf)    5.2233     10.592         58    
-QR Code Verification.TotalTimePerEntity     1.0000     (Insuf)    1.0000     1.0000         87    
-On Site Patient.VATime                      59.375     (Insuf)    .00000     455.94         16    
-On Site Patient.NVATime                     .00000     (Insuf)    .00000     .00000         16    
-On Site Patient.WaitTime                    14.922     (Insuf)    .00000     164.44         16    
-On Site Patient.TranTime                    1.0000     (Insuf)    .00000     6.0000         16    
-On Site Patient.OtherTime                   .75000     (Insuf)    .00000     1.0000         16    
-On Site Patient.TotalTime                   76.047     (Insuf)    .00000     462.94         16    
-Online Patients.VATime                      109.28     (Insuf)    .00000     418.52         15    
-Online Patients.NVATime                     .00000     (Insuf)    .00000     .00000         15    
-Online Patients.WaitTime                    7.0200     (Insuf)    .00000     85.622         15    
-Online Patients.TranTime                    1.8666     (Insuf)    .00000     6.0000         15    
-Online Patients.OtherTime                   .80000     (Insuf)    .00000     1.0000         15    
-Online Patients.TotalTime                   118.97     (Insuf)    .00000     431.64         15    
-On Site Registration.Queue.WaitingTime      98.033     (Insuf)    .00000     183.35         59    
-Health Screening.Queue.WaitingTime          25.313     (Insuf)    .00000     92.960         68    
-Vaccination.Queue.WaitingTime               .00000     (Insuf)    .00000     .00000         54    
+On Site Registration.VATimePerEntity        7.8466     (Insuf)    5.4744     10.569         59    
+QR Code Verification.TotalTimePerEntity     1.0000     (Insuf)    1.0000     1.0000        102    
+On Site Patient.VATime                      44.272     (Insuf)    .00000     455.94         22    
+On Site Patient.NVATime                     .00000     (Insuf)    .00000     .00000         22    
+On Site Patient.WaitTime                    18.692     (Insuf)    .00000     120.97         22    
+On Site Patient.TranTime                    .90909     (Insuf)    .00000     6.0000         22    
+On Site Patient.OtherTime                   .59091     (Insuf)    .00000     1.0000         22    
+On Site Patient.TotalTime                   64.465     (Insuf)    .00000     462.94         22    
+Online Patients.VATime                      115.94     (Insuf)    .00000     418.52         14    
+Online Patients.NVATime                     .00000     (Insuf)    .00000     .00000         14    
+Online Patients.WaitTime                    1.1935     (Insuf)    .00000     10.456         14    
+Online Patients.TranTime                    1.7142     (Insuf)    .00000     6.0000         14    
+Online Patients.OtherTime                   .57143     (Insuf)    .00000     1.0000         14    
+Online Patients.TotalTime                   119.41     (Insuf)    .00000     431.64         14    
+On Site Registration.Queue.WaitingTime      65.767     (Insuf)    .00000     125.36         60    
+Health Screening.Queue.WaitingTime          49.244     (Insuf)    .00000     157.66         67    
+Vaccination.Queue.WaitingTime               .00000     (Insuf)    .00000     .00000         55    
 
                                      DISCRETE-CHANGE VARIABLES
 
 Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
 ___________________________________________________________________________________________________
 
-On Site Patient.WIP                         43.988     (Insuf)    .00000     84.000     84.000    
-Online Patients.WIP                         11.189     (Insuf)    .00000     25.000     22.000    
+On Site Patient.WIP                         36.404     (Insuf)    .00000     67.000     66.000    
+Online Patients.WIP                         17.261     (Insuf)    .00000     39.000     38.000    
 Registration Officer.NumberBusy             .97487     (Insuf)    .00000     1.0000     1.0000    
 Registration Officer.NumberScheduled        1.0000     (Insuf)    1.0000     1.0000     1.0000    
 Registration Officer.Utilization            .97487     (Insuf)    .00000     1.0000     1.0000    
-Vaccinator.NumberBusy                       .37990     (Insuf)    .00000     1.0000     .00000    
+Vaccinator.NumberBusy                       .38941     (Insuf)    .00000     1.0000     .00000    
 Vaccinator.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
-Vaccinator.Utilization                      .37990     (Insuf)    .00000     1.0000     .00000    
-Screening Nurse.NumberBusy                  .94945     (Insuf)    .00000     1.0000     1.0000    
+Vaccinator.Utilization                      .38941     (Insuf)    .00000     1.0000     .00000    
+Screening Nurse.NumberBusy                  .97827     (Insuf)    .00000     1.0000     1.0000    
 Screening Nurse.NumberScheduled             1.0000     (Insuf)    1.0000     1.0000     1.0000    
-Screening Nurse.Utilization                 .94945     (Insuf)    .00000     1.0000     1.0000    
-On Site Registration.Queue.NumberInQueue    17.731     (Insuf)    .00000     30.000     30.000    
-Health Screening.Queue.NumberInQueue        5.4431     (Insuf)    .00000     19.000     18.000    
+Screening Nurse.Utilization                 .97827     (Insuf)    .00000     1.0000     1.0000    
+On Site Registration.Queue.NumberInQueue    10.249     (Insuf)    .00000     18.000     14.000    
+Health Screening.Queue.NumberInQueue        13.589     (Insuf)    .00000     39.000     38.000    
 Vaccination.Queue.NumberInQueue             .00000     (Insuf)    .00000     .00000     .00000    
 
                                              COUNTERS
@@ -69,46 +69,49 @@ Vaccination.Queue.NumberInQueue             .00000     (Insuf)    .00000     .00
 Identifier                                    Count   Limit
 _____________________________________________________________
 
-Online Registered Patients                       29  Infinite
+Online Registered Patients                       43  Infinite
+Number of Unvaccinated Caused By High Temp       15  Infinite
 Successfully Vaccinated Patients                  6  Infinite
-On Site Registered Patients                      58  Infinite
-Rescheduled Patients                             25  Infinite
+Number of Unvaccinated Caused by QR Code V        3  Infinite
+On Site Registered Patients                      59  Infinite
+Number of Unvaccinated Caused by Wrong Pri        8  Infinite
+Number of Unvaccinated Caused by High Bloo        4  Infinite
 
                                              OUTPUTS
 
 Identifier                                   Value
 _____________________________________________________________
 
-On Site Registration Accum Wait Time        5600.6    
-Health Screening Accum Wait Time            1628.3    
-QR Code Verification Number In              87.000    
-On Site Registration Accum VA Time          460.86    
-Health Screening Number In                  86.000    
-Vaccination Accum VA Time                   182.35    
-Health Screening Number Out                 67.000    
-Vaccination Number Out                      54.000    
-Vaccination Number In                       54.000    
+On Site Registration Accum Wait Time        3820.6    
+Health Screening Accum Wait Time            3141.7    
+QR Code Verification Number In              102.00    
+On Site Registration Accum VA Time          462.95    
+Health Screening Number In                  105.00    
+Vaccination Accum VA Time                   186.91    
+Health Screening Number Out                 66.000    
+Vaccination Number Out                      55.000    
+Vaccination Number In                       55.000    
 Vaccination Accum Wait Time                 .00000    
 Monitoring Accum VA Time                    2442.3    
-QR Code Verification Accum VA Time          87.000    
-QR Code Verification Number Out             87.000    
-On Site Registration Number Out             58.000    
+QR Code Verification Accum VA Time          102.00    
+QR Code Verification Number Out             102.00    
+On Site Registration Number Out             59.000    
 Monitoring Number Out                       6.0000    
-Monitoring Number In                        54.000    
-Health Screening Accum VA Time              454.20    
-On Site Registration Number In              89.000    
-On Site Patient.NumberIn                    100.00    
-On Site Patient.NumberOut                   16.000    
-Online Patients.NumberIn                    37.000    
-Online Patients.NumberOut                   15.000    
-Registration Officer.NumberSeized           59.000    
+Monitoring Number In                        55.000    
+Health Screening Accum VA Time              469.32    
+On Site Registration Number In              74.000    
+On Site Patient.NumberIn                    88.000    
+On Site Patient.NumberOut                   22.000    
+Online Patients.NumberIn                    52.000    
+Online Patients.NumberOut                   14.000    
+Registration Officer.NumberSeized           60.000    
 Registration Officer.ScheduledUtilization   .97487    
-Vaccinator.NumberSeized                     54.000    
-Vaccinator.ScheduledUtilization             .37990    
-Screening Nurse.NumberSeized                68.000    
-Screening Nurse.ScheduledUtilization        .94945    
-System.NumberOut                            31.000    
+Vaccinator.NumberSeized                     55.000    
+Vaccinator.ScheduledUtilization             .38941    
+Screening Nurse.NumberSeized                67.000    
+Screening Nurse.ScheduledUtilization        .97827    
+System.NumberOut                            36.000    
 
 
-Simulation run time: 0.00 minutes.
+Simulation run time: 0.02 minutes.
 Simulation run complete.
