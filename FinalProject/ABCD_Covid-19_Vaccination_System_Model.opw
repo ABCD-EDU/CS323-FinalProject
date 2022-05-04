@@ -1,16 +1,26 @@
 [RESOURCES]
+Hospital Guard
+QR Code Verification Officer
 Registration Officer
 Vaccinator
 Screening Nurse
+Emergency Officer
 [VARIABLES]
 On Site Registration.WaitTime
+Emergency Process.WaitTime
 Health Screening.WaitTime
 QR Code Verification.NumberIn
+QR Code Verification.WaitTime
 Vaccination Patient Departs.NumberOut
+Emergency Process.NumberOut
+Initial Health Assessment.NumberIn
+Emergency Process.NumberIn
+Initial Health Assessment.NumberOut
 On Site Registration.VATime
 On Site Patient Arrival.NumberOut
 Health Screening.NumberIn
 Vaccination.VATime
+Initial Health Assessment.WaitTime
 Health Screening.NumberOut
 is On Site Registered Patient?.NumberOut False
 Vaccination.NumberOut
@@ -19,16 +29,20 @@ High Temp or Severe Signs of Illness?.NumberOut True
 is On Site Registered Patient?.NumberOut True
 High Temp or Severe Signs of Illness?.NumberOut False
 Vaccination.WaitTime
+Initial Health Assessment.VATime
 Monitoring.VATime
 QR Code Verification.VATime
 Verification Success?.NumberOut True
 QR Code Verification.NumberOut
 On Site Registration.NumberOut
+Does the Patient show Negative Reactions.NumberOut False
 Monitoring.NumberOut
 Monitoring.NumberIn
+Does the Patient show Negative Reactions.NumberOut True
 Health Screening.VATime
 Verification Success?.NumberOut False
 Online Registered Patients Arrival.NumberOut
 Not in Priority Group?.NumberOut True
+Emergency Process.VATime
 Not in Priority Group?.NumberOut False
 On Site Registration.NumberIn
