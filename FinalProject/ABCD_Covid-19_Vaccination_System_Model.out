@@ -1,11 +1,11 @@
 
 ----------------------------------------------------------------------
 17114:CCREAT
-A runtime error was detected at time 419.44764 at the following block:
+A runtime error was detected at time 376.96286 at the following block:
 
- *    1 32$             CREATE,1,MinutesToBaseTime(0.0),On Site Patient:
-                            MinutesToBaseTime(NORM(2.45,0.321)):
-                            NEXT(33$);
+ *  143 431$            CREATE,1,MinutesToBaseTime(0.0),Online Patients:
+                            MinutesToBaseTime(TRIA(2,2.45,5)):
+                            NEXT(432$);
 
 Maximum of 150 entities exceeded.
 Possible causes:
@@ -24,7 +24,7 @@ pace for models. Use the Array Sizes
 
 SIMAN Run Controller.
 
-419.44764 Minutes>
+376.96286 Minutes>
                                       ARENA Simulation Results
                                       Bryan - License: STUDENT
 
@@ -33,7 +33,7 @@ SIMAN Run Controller.
 Project: Covid                                                       Run execution date : 5/ 5/2022
 Analyst: Bryan                                                       Model revision date: 5/ 5/2022
 
-Replication ended at time      : 419.44764 Minutes 
+Replication ended at time      : 376.96286 Minutes 
 Base Time Units: Minutes
 
                                            TALLY VARIABLES
@@ -41,144 +41,144 @@ Base Time Units: Minutes
 Identifier                                  Average   Half Width  Minimum    Maximum   Observations
 ___________________________________________________________________________________________________
 
-Monitoring.VATimePerEntity                  16.079     (Insuf)    15.012     16.996        105    
-Vaccination.TotalTimePerEntity              3.7514     (Insuf)    1.8645     6.5067        111    
-Health Screening.WaitTimePerEntity          107.61     (Insuf)    .00000     220.10        120    
-QR Code Verification.WaitTimePerEntity      .00404     (Insuf)    .00000     .14578        259    
-Vaccination.WaitTimePerEntity               .69896     (Insuf)    .00000     2.8862        111    
-Initial Health Assessment.VATimePerEntity   .29948     (Insuf)    .06865     .53149        305    
-QR Code Verification.VATimePerEntity        .15038     (Insuf)    .09771     .21220        259    
-Health Screening.TotalTimePerEntity         111.05     (Insuf)    2.6974     222.68        120    
-Health Screening.VATimePerEntity            3.4440     (Insuf)    1.6084     4.9695        120    
-On Site Registration.WaitTimePerEntity      8.2272     (Insuf)    .00000     20.797        141    
-Emergency Process.WaitTimePerEntity             --         --         --         --          0
-Emergency Process.VATimePerEntity               --         --         --         --          0
-Vaccination.VATimePerEntity                 3.0524     (Insuf)    1.8176     3.9925        111    
-Initial Health Assessment.TotalTimePerEnti  .32489     (Insuf)    .06865     .85009        305    
-Initial Health Assessment.WaitTimePerEntit  .02541     (Insuf)    .00000     .45565        305    
-On Site Registration.TotalTimePerEntity     11.156     (Insuf)    2.8237     24.667        141    
-Monitoring.TotalTimePerEntity               16.079     (Insuf)    15.012     16.996        105    
-On Site Registration.VATimePerEntity        2.9291     (Insuf)    1.6045     4.3524        141    
-Emergency Process.TotalTimePerEntity            --         --         --         --          0
-QR Code Verification.TotalTimePerEntity     .15442     (Insuf)    .09771     .31353        259    
-On Site Patient.VATime                      16.763     (Insuf)    .09038     28.977         85    
-On Site Patient.NVATime                     .00000     (Insuf)    .00000     .00000         85    
-On Site Patient.WaitTime                    69.390     (Insuf)    .00000     204.45         85    
-On Site Patient.TranTime                    3.8117     (Insuf)    .00000     6.0000         85    
-On Site Patient.OtherTime                   1.0221     (Insuf)    .00000     15.886         85    
-On Site Patient.TotalTime                   90.988     (Insuf)    .11272     237.59         85    
-Online Patients.VATime                      16.636     (Insuf)    .12345     25.713         73    
-Online Patients.NVATime                     .00000     (Insuf)    .00000     .00000         73    
-Online Patients.WaitTime                    75.676     (Insuf)    .00000     204.24         73    
-Online Patients.TranTime                    4.3013     (Insuf)    .00000     6.0000         73    
-Online Patients.OtherTime                   1.2893     (Insuf)    .00000     15.642         73    
-Online Patients.TotalTime                   97.903     (Insuf)    .13413     235.47         73    
-On Site Registration.Queue.WaitingTime      8.2784     (Insuf)    .00000     20.797        142    
-Emergency Process.Queue.WaitingTime             --         --         --         --          0
-Health Screening.Queue.WaitingTime          108.54     (Insuf)    .00000     221.02        121    
-QR Code Verification.Queue.WaitingTime      .00404     (Insuf)    .00000     .14578        259    
-Initial Health Assessment.Queue.WaitingTim  .02541     (Insuf)    .00000     .45565        305    
-Vaccination.Queue.WaitingTime               .71066     (Insuf)    .00000     2.8862        112    
+Monitoring.VATimePerEntity                  15.959     (Insuf)    15.023     16.980         94    
+Vaccination.TotalTimePerEntity              4.1539     (Insuf)    1.8460     8.9266        100    
+Health Screening.WaitTimePerEntity          87.404     (Insuf)    .00000     201.13        118    
+QR Code Verification.WaitTimePerEntity      .35042     (Insuf)    .00000     1.9990        235    
+Vaccination.WaitTimePerEntity               1.1421     (Insuf)    .00000     5.6475        100    
+Initial Health Assessment.VATimePerEntity   .27981     (Insuf)    .06865     .53051        280    
+QR Code Verification.VATimePerEntity        1.1726     (Insuf)    .40075     2.6012        235    
+Health Screening.TotalTimePerEntity         90.542     (Insuf)    1.0535     203.68        118    
+Health Screening.VATimePerEntity            3.1382     (Insuf)    1.0070     4.9511        118    
+On Site Registration.WaitTimePerEntity      21.256     (Insuf)    .00000     40.550        123    
+Emergency Process.WaitTimePerEntity         .00000     (Insuf)    .00000     .00000          1    
+Emergency Process.VATimePerEntity           10.763     (Insuf)    10.763     10.763          1    
+Vaccination.VATimePerEntity                 3.0117     (Insuf)    1.8336     3.9484        100    
+Initial Health Assessment.TotalTimePerEnti  .29320     (Insuf)    .06865     .74463        280    
+Initial Health Assessment.WaitTimePerEntit  .01339     (Insuf)    .00000     .35759        280    
+On Site Registration.TotalTimePerEntity     24.296     (Insuf)    3.2583     44.037        123    
+Monitoring.TotalTimePerEntity               15.959     (Insuf)    15.023     16.980         94    
+On Site Registration.VATimePerEntity        3.0407     (Insuf)    1.7636     4.6233        123    
+Emergency Process.TotalTimePerEntity        10.763     (Insuf)    10.763     10.763          1    
+QR Code Verification.TotalTimePerEntity     1.5230     (Insuf)    .44493     3.2710        235    
+On Site Patient.VATime                      18.355     (Insuf)    .13655     35.513         70    
+On Site Patient.NVATime                     .00000     (Insuf)    .00000     .00000         70    
+On Site Patient.WaitTime                    69.127     (Insuf)    .00000     198.76         70    
+On Site Patient.TranTime                    3.9714     (Insuf)    .00000     6.0000         70    
+On Site Patient.OtherTime                   1.7022     (Insuf)    .00000     14.362         70    
+On Site Patient.TotalTime                   93.156     (Insuf)    .13655     234.13         70    
+Online Patients.VATime                      18.608     (Insuf)    .09686     27.269         63    
+Online Patients.NVATime                     .00000     (Insuf)    .00000     .00000         63    
+Online Patients.WaitTime                    71.370     (Insuf)    .00000     185.65         63    
+Online Patients.TranTime                    4.6031     (Insuf)    .00000     6.0000         63    
+Online Patients.OtherTime                   2.5481     (Insuf)    .00000     26.562         63    
+Online Patients.TotalTime                   97.130     (Insuf)    .12874     226.85         63    
+On Site Registration.Queue.WaitingTime      21.399     (Insuf)    .00000     40.550        124    
+Emergency Process.Queue.WaitingTime         .00000     (Insuf)    .00000     .00000          1    
+Health Screening.Queue.WaitingTime          88.353     (Insuf)    .00000     201.13        119    
+QR Code Verification.Queue.WaitingTime      .35042     (Insuf)    .00000     1.9990        235    
+Initial Health Assessment.Queue.WaitingTim  .01339     (Insuf)    .00000     .35759        280    
+Vaccination.Queue.WaitingTime               1.1413     (Insuf)    .00000     5.6475        101    
 
                                      DISCRETE-CHANGE VARIABLES
 
 Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
 ___________________________________________________________________________________________________
 
-On Site Patient.WIP                         44.745     (Insuf)    .00000     86.000     86.000    
-Online Patients.WIP                         34.479     (Insuf)    .00000     62.000     61.000    
-Hospital Guard.NumberBusy                   .21777     .01184     .00000     1.0000     .00000    
+On Site Patient.WIP                         44.990     (Insuf)    .00000     86.000     86.000    
+Online Patients.WIP                         33.883     (Insuf)    .00000     62.000     61.000    
+Hospital Guard.NumberBusy                   .20784     .00996     .00000     1.0000     .00000    
 Hospital Guard.NumberScheduled              1.0000     (Insuf)    1.0000     1.0000     1.0000    
-Hospital Guard.Utilization                  .21777     .01184     .00000     1.0000     .00000    
-QR Code Verification Officer.NumberBusy     .09286     .00521     .00000     1.0000     .00000    
+Hospital Guard.Utilization                  .20784     .00996     .00000     1.0000     .00000    
+QR Code Verification Officer.NumberBusy     .73103     (Insuf)    .00000     1.0000     .00000    
 QR Code Verification Officer.NumberSchedul  1.0000     (Insuf)    1.0000     1.0000     1.0000    
-QR Code Verification Officer.Utilization    .09286     .00521     .00000     1.0000     .00000    
-Registration Officer.NumberBusy             .98521     (Insuf)    .00000     1.0000     1.0000    
+QR Code Verification Officer.Utilization    .73103     (Insuf)    .00000     1.0000     .00000    
+Registration Officer.NumberBusy             .99571     (Insuf)    .00000     1.0000     1.0000    
 Registration Officer.NumberScheduled        1.0000     (Insuf)    1.0000     1.0000     1.0000    
-Registration Officer.Utilization            .98521     (Insuf)    .00000     1.0000     1.0000    
-Vaccinator.NumberBusy                       .81057     (Insuf)    .00000     1.0000     1.0000    
+Registration Officer.Utilization            .99571     (Insuf)    .00000     1.0000     1.0000    
+Vaccinator.NumberBusy                       .80190     (Insuf)    .00000     1.0000     1.0000    
 Vaccinator.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
-Vaccinator.Utilization                      .81057     (Insuf)    .00000     1.0000     1.0000    
-Screening Nurse.NumberBusy                  .99149     (Insuf)    .00000     1.0000     1.0000    
+Vaccinator.Utilization                      .80190     (Insuf)    .00000     1.0000     1.0000    
+Screening Nurse.NumberBusy                  .98662     (Insuf)    .00000     1.0000     1.0000    
 Screening Nurse.NumberScheduled             1.0000     (Insuf)    1.0000     1.0000     1.0000    
-Screening Nurse.Utilization                 .99149     (Insuf)    .00000     1.0000     1.0000    
-Emergency Officer.NumberBusy                .00000     (Insuf)    .00000     .00000     .00000    
+Screening Nurse.Utilization                 .98662     (Insuf)    .00000     1.0000     1.0000    
+Emergency Officer.NumberBusy                .02855     (Insuf)    .00000     1.0000     .00000    
 Emergency Officer.NumberScheduled           1.0000     (Insuf)    1.0000     1.0000     1.0000    
-Emergency Officer.Utilization               .00000     (Insuf)    .00000     .00000     .00000    
-On Site Registration.Queue.NumberInQueue    2.8816     (Insuf)    .00000     7.0000     5.0000    
+Emergency Officer.Utilization               .02855     (Insuf)    .00000     1.0000     .00000    
+On Site Registration.Queue.NumberInQueue    7.6970     (Insuf)    .00000     15.000     13.000    
 Emergency Process.Queue.NumberInQueue       .00000     (Insuf)    .00000     .00000     .00000    
-Health Screening.Queue.NumberInQueue        65.860     (Corr)     .00000     130.00     130.00    
-QR Code Verification.Queue.NumberInQueue    .00249     (Insuf)    .00000     1.0000     .00000    
-Initial Health Assessment.Queue.NumberInQu  .01848     (Insuf)    .00000     1.0000     .00000    
-Vaccination.Queue.NumberInQueue             .19118     (Insuf)    .00000     1.0000     1.0000    
-Monitoring Area.NumEntTrans                 .52728     (Insuf)    .00000     2.0000     1.0000    
-Screening Bay.NumEntTrans                   1.1870     (Corr)     .00000     3.0000     2.0000    
-Vax Bay.NumEntTrans                         .53880     (Insuf)    .00000     2.0000     .00000    
+Health Screening.Queue.NumberInQueue        59.374     (Corr)     .00000     121.00     120.00    
+QR Code Verification.Queue.NumberInQueue    .21845     (Insuf)    .00000     2.0000     .00000    
+Initial Health Assessment.Queue.NumberInQu  .00994     (Insuf)    .00000     1.0000     .00000    
+Vaccination.Queue.NumberInQueue             .30579     (Insuf)    .00000     2.0000     .00000    
+Monitoring Area.NumEntTrans                 .52819     (Insuf)    .00000     2.0000     1.0000    
+Screening Bay.NumEntTrans                   1.2006     .06011     .00000     3.0000     3.0000    
+Vax Bay.NumEntTrans                         .54013     (Insuf)    .00000     2.0000     1.0000    
 
                                              COUNTERS
 
 Identifier                                    Count   Limit
 _____________________________________________________________
 
-Online Registered Patients                      118  Infinite
-Number of Unvaccinated Caused By High Temp       20  Infinite
-Successfully Vaccinated Patients                105  Infinite
-Number of Unvaccinated Caused by QR Code V        9  Infinite
-Number of Successful Vaccination but Shows        0  Infinite
-On Site Registered Patients                     141  Infinite
-Number of Unvaccinated Caused by Wrong Pri       20  Infinite
-Number of Unvaccinated Caused by High Bloo        4  Infinite
+Online Registered Patients                      112  Infinite
+Number of Unvaccinated Caused By High Temp       18  Infinite
+Successfully Vaccinated Patients                 93  Infinite
+Number of Unvaccinated Caused by QR Code V        7  Infinite
+Number of Successful Vaccination but Shows        1  Infinite
+On Site Registered Patients                     123  Infinite
+Number of Unvaccinated Caused by Wrong Pri       12  Infinite
+Number of Unvaccinated Caused by High Bloo        2  Infinite
 
                                              OUTPUTS
 
 Identifier                                   Value
 _____________________________________________________________
 
-On Site Registration Accum Wait Time        1160.0    
+On Site Registration Accum Wait Time        2614.5    
 Emergency Process Accum Wait Time           .00000    
-Health Screening Accum Wait Time            12913.    
-QR Code Verification Number In              259.00    
-QR Code Verification Accum Wait Time        1.0458    
-Emergency Process Number Out                .00000    
-Initial Health Assessment Number In         305.00    
-Emergency Process Number In                 .00000    
-Initial Health Assessment Number Out        305.00    
-On Site Registration Accum VA Time          413.00    
-Health Screening Number In                  251.00    
-Initial Health Assessment Accum Wait Time   7.7496    
-Vaccination Accum VA Time                   338.82    
-Health Screening Number Out                 120.00    
-Vaccination Number Out                      111.00    
-Vaccination Number In                       113.00    
-Vaccination Accum Wait Time                 77.584    
-Initial Health Assessment Accum VA Time     91.341    
-Monitoring Accum VA Time                    1688.3    
-QR Code Verification Accum VA Time          38.949    
-QR Code Verification Number Out             259.00    
-On Site Registration Number Out             141.00    
-Monitoring Number Out                       105.00    
-Monitoring Number In                        110.00    
-Health Screening Accum VA Time              413.28    
-Emergency Process Accum VA Time             .00000    
-On Site Registration Number In              147.00    
-On Site Patient.NumberIn                    171.00    
-On Site Patient.NumberOut                   85.000    
-Online Patients.NumberIn                    134.00    
-Online Patients.NumberOut                   73.000    
-Hospital Guard.NumberSeized                 305.00    
-Hospital Guard.ScheduledUtilization         .21777    
-QR Code Verification Officer.NumberSeized   259.00    
-QR Code Verification Officer.ScheduledUtil  .09286    
-Registration Officer.NumberSeized           142.00    
-Registration Officer.ScheduledUtilization   .98521    
-Vaccinator.NumberSeized                     112.00    
-Vaccinator.ScheduledUtilization             .81057    
-Screening Nurse.NumberSeized                121.00    
-Screening Nurse.ScheduledUtilization        .99149    
-Emergency Officer.NumberSeized              .00000    
-Emergency Officer.ScheduledUtilization      .00000    
-System.NumberOut                            158.00    
+Health Screening Accum Wait Time            10313.    
+QR Code Verification Number In              235.00    
+QR Code Verification Accum Wait Time        82.348    
+Emergency Process Number Out                1.0000    
+Initial Health Assessment Number In         280.00    
+Emergency Process Number In                 1.0000    
+Initial Health Assessment Number Out        280.00    
+On Site Registration Accum VA Time          374.01    
+Health Screening Number In                  239.00    
+Initial Health Assessment Accum Wait Time   3.7487    
+Vaccination Accum VA Time                   301.17    
+Health Screening Number Out                 118.00    
+Vaccination Number Out                      100.00    
+Vaccination Number In                       101.00    
+Vaccination Accum Wait Time                 114.21    
+Initial Health Assessment Accum VA Time     78.347    
+Monitoring Accum VA Time                    1500.2    
+QR Code Verification Accum VA Time          275.57    
+QR Code Verification Number Out             235.00    
+On Site Registration Number Out             123.00    
+Monitoring Number Out                       94.000    
+Monitoring Number In                        99.000    
+Health Screening Accum VA Time              370.31    
+Emergency Process Accum VA Time             10.763    
+On Site Registration Number In              137.00    
+On Site Patient.NumberIn                    156.00    
+On Site Patient.NumberOut                   70.000    
+Online Patients.NumberIn                    124.00    
+Online Patients.NumberOut                   63.000    
+Hospital Guard.NumberSeized                 280.00    
+Hospital Guard.ScheduledUtilization         .20784    
+QR Code Verification Officer.NumberSeized   235.00    
+QR Code Verification Officer.ScheduledUtil  .73103    
+Registration Officer.NumberSeized           124.00    
+Registration Officer.ScheduledUtilization   .99571    
+Vaccinator.NumberSeized                     101.00    
+Vaccinator.ScheduledUtilization             .80190    
+Screening Nurse.NumberSeized                119.00    
+Screening Nurse.ScheduledUtilization        .98662    
+Emergency Officer.NumberSeized              1.0000    
+Emergency Officer.ScheduledUtilization      .02855    
+System.NumberOut                            133.00    
 
 
-Simulation run time: 0.10 minutes.
+Simulation run time: 0.27 minutes.
 Simulation run completed with 1 error(s) and 0 warning(s).

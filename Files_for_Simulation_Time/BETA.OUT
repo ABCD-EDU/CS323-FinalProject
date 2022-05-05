@@ -1,0 +1,56 @@
+
+	Distribution Summary
+
+Distribution:	Beta         
+Expression:	0.35 + 1.65 * BETA(1.5, 1.34)
+Square Error:	0.002805
+
+Chi Square Test
+  Number of intervals	= 19
+  Degrees of freedom 	= 16
+  Test Statistic     	= 30.6
+  Corresponding p-value	= 0.0168
+
+Kolmogorov-Smirnov Test
+  Test Statistic	= 0.0395
+  Corresponding p-value	> 0.15
+
+	Data Summary
+
+Number of Data Points	= 400
+Min Data Value       	= 0.5
+Max Data Value       	= 2
+Sample Mean          	= 1.22
+Sample Std Dev       	= 0.42
+
+	Histogram Summary
+
+Histogram Range    	= 0.35 to 2
+Number of Intervals	= 20
+
+
+==================================================================
+Int.   No. of               Probability           Cumulative      
+No.    Data Pts.   x        Density               Distribution    
+------------------------------------------------------------------
+                            Data   Function       Data   Function   
+   0     0      0.433      0.000     0.0158      0.000     0.0158
+   1     6      0.515     0.0150     0.0285     0.0150     0.0442
+   2    26      0.598     0.0650     0.0362     0.0800     0.0804
+   3    25      0.680     0.0625     0.0421      0.143      0.123
+   4    14      0.763     0.0350     0.0468      0.178      0.169
+   5    21      0.845     0.0525     0.0507      0.230      0.220
+   6    24      0.928     0.0600     0.0538      0.290      0.274
+   7    23       1.01     0.0575     0.0564      0.348      0.330
+   8    18       1.09     0.0450     0.0584      0.393      0.389
+   9    22       1.18     0.0550     0.0599      0.448      0.449
+  10    26       1.26     0.0650     0.0609      0.512      0.510
+  11    30       1.34     0.0750     0.0614      0.587      0.571
+  12    23       1.42     0.0575     0.0614      0.645      0.632
+  13    22       1.51     0.0550     0.0608      0.700      0.693
+  14    28       1.59     0.0700     0.0596      0.770      0.753
+  15    22       1.67     0.0550     0.0576      0.825      0.810
+  16    18       1.75     0.0450     0.0546      0.870      0.865
+  17    18       1.84     0.0450     0.0502      0.915      0.915
+  18    16       1.92     0.0400     0.0433      0.955      0.958
+  19    18       2.00     0.0450     0.0291       1.00      0.988
