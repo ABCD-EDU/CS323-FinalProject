@@ -7,18 +7,24 @@ Screening Nurse
 Emergency Officer
 [VARIABLES]
 On Site Registration.WaitTime
+On Site Registration.WaitCost
 Emergency Process.WaitTime
 Health Screening.WaitTime
+Emergency Process.WaitCost
 QR Code Verification.NumberIn
+QR Code Verification.WaitCost
 QR Code Verification.WaitTime
 Vaccination Patient Departs.NumberOut
 Emergency Process.NumberOut
 Initial Health Assessment.NumberIn
 Emergency Process.NumberIn
 Initial Health Assessment.NumberOut
+On Site Registration.VACost
 On Site Registration.VATime
 On Site Patient Arrival.NumberOut
+Monitoring.VACost
 Health Screening.NumberIn
+Initial Health Assessment.WaitCost
 Vaccination.VATime
 Initial Health Assessment.WaitTime
 Health Screening.NumberOut
@@ -28,21 +34,28 @@ Vaccination.NumberIn
 High Temp or Severe Signs of Illness?.NumberOut True
 is On Site Registered Patient?.NumberOut True
 High Temp or Severe Signs of Illness?.NumberOut False
+Vaccination.WaitCost
 Vaccination.WaitTime
 Initial Health Assessment.VATime
 Monitoring.VATime
+Initial Health Assessment.VACost
 QR Code Verification.VATime
 Verification Success?.NumberOut True
+QR Code Verification.VACost
 QR Code Verification.NumberOut
 On Site Registration.NumberOut
 Does the Patient show Negative Reactions.NumberOut False
 Monitoring.NumberOut
 Monitoring.NumberIn
 Does the Patient show Negative Reactions.NumberOut True
+Health Screening.WaitCost
 Health Screening.VATime
 Verification Success?.NumberOut False
 Online Registered Patients Arrival.NumberOut
+Health Screening.VACost
+Vaccination.VACost
 Not in Priority Group?.NumberOut True
+Emergency Process.VACost
 Emergency Process.VATime
 Not in Priority Group?.NumberOut False
 On Site Registration.NumberIn
