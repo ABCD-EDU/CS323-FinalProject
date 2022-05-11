@@ -7,14 +7,15 @@ Vaccinator
 Screening Nurse
 Emergency Officer
 [VARIABLES]
+Registration Form Submission and Checking.NumberIn
 Identify Priority Group.VACost
-On Site Registration.WaitTime
 Identify Priority Group.VATime
-On Site Registration.WaitCost
 Emergency Process.WaitTime
 Health Screening.WaitTime
+Registration Form Submission and Checking.WaitCost
 Emergency Process.WaitCost
 QR Code Verification.NumberIn
+Registration Form Submission and Checking.WaitTime
 QR Code Verification.WaitCost
 QR Code Verification.WaitTime
 Vaccination Patient Departs.NumberOut
@@ -22,9 +23,9 @@ Emergency Process.NumberOut
 Initial Health Assessment.NumberIn
 Emergency Process.NumberIn
 Initial Health Assessment.NumberOut
-On Site Registration.VACost
-On Site Registration.VATime
+Taking Registration Form.NumberIn
 On Site Patient Arrival.NumberOut
+Taking Registration Form.NumberOut
 Monitoring.VACost
 Health Screening.NumberIn
 Initial Health Assessment.WaitCost
@@ -34,7 +35,9 @@ Health Screening.NumberOut
 is On Site Registered Patient?.NumberOut False
 Vaccination.NumberOut
 Vaccination.NumberIn
+Taking Registration Form.WaitCost
 High Temp or Severe Signs of Illness?.NumberOut True
+Taking Registration Form.WaitTime
 is On Site Registered Patient?.NumberOut True
 High Temp or Severe Signs of Illness?.NumberOut False
 Vaccination.WaitCost
@@ -42,16 +45,19 @@ Vaccination.WaitTime
 Identify Priority Group.WaitCost
 Initial Health Assessment.VATime
 Identify Priority Group.WaitTime
+Taking Registration Form.VACost
+Taking Registration Form.VATime
 Monitoring.VATime
 Initial Health Assessment.VACost
 QR Code Verification.VATime
 Verification Success?.NumberOut True
 QR Code Verification.VACost
 QR Code Verification.NumberOut
-On Site Registration.NumberOut
 Does the Patient show Negative Reactions.NumberOut False
 Monitoring.NumberOut
 Monitoring.NumberIn
+Registration Form Submission and Checking.VATime
+Registration Form Submission and Checking.VACost
 Does the Patient show Negative Reactions.NumberOut True
 Health Screening.WaitCost
 Health Screening.VATime
@@ -65,4 +71,4 @@ Identify Priority Group.NumberIn
 Emergency Process.VACost
 Emergency Process.VATime
 Not in Priority Group?.NumberOut False
-On Site Registration.NumberIn
+Registration Form Submission and Checking.NumberOut

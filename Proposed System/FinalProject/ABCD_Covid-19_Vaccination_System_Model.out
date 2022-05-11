@@ -4,8 +4,8 @@
 
                                   Summary for Replication 1 of 1
 
-Project: Covid                                                       Run execution date : 5/11/2022
-Analyst: Bryan                                                       Model revision date: 5/11/2022
+Project: Covid                                                       Run execution date : 5/10/2022
+Analyst: Bryan                                                       Model revision date: 5/10/2022
 
 Replication ended at time      : 240.0 Minutes 
 Base Time Units: Minutes
@@ -20,7 +20,7 @@ Initial Health Assessment.VACostPerEntity   .00992     (Insuf)    .00266     .01
 Monitoring.VATimePerEntity                  16.084     (Insuf)    15.035     16.998         57    
 Vaccination.VACostPerEntity                 .25878     (Insuf)    .14960     .33283         61    
 Vaccination.TotalTimePerEntity              4.0122     (Insuf)    1.7951     7.3021         61    
-Identify Priority Group.VACostPerEntity     .01111     (Insuf)    .01111     .01111        166    
+Identify Priority Group.VACostPerEntity     .00000     (Insuf)    .00000     .00000        166    
 Initial Health Assessment.WaitCostPerEntit  .00000     (Insuf)    .00000     .00000        176    
 Health Screening.WaitTimePerEntity          51.893     (Insuf)    .00000     119.78         74    
 Health Screening.WaitCostPerEntity          .00000     (Insuf)    .00000     .00000         74    
@@ -33,7 +33,7 @@ Monitoring.TotalCostPerEntity               .00000     (Insuf)    .00000     .00
 Identify Priority Group.WaitCostPerEntity   .00000     (Insuf)    .00000     .00000        166    
 Initial Health Assessment.VATimePerEntity   .29759     (Insuf)    .07971     .51984        176    
 QR Code Verification.WaitCostPerEntity      .00000     (Insuf)    .00000     .00000        143    
-Identify Priority Group.TotalCostPerEntity  .01111     (Insuf)    .01111     .01111        166    
+Identify Priority Group.TotalCostPerEntity  .00000     (Insuf)    .00000     .00000        166    
 QR Code Verification.VATimePerEntity        1.2301     (Insuf)    .47364     2.4432        143    
 Health Screening.TotalTimePerEntity         55.069     (Insuf)    1.4658     124.32         74    
 Health Screening.VATimePerEntity            3.1751     (Insuf)    .52565     4.9341         74    
@@ -67,24 +67,24 @@ On Site Patient.WaitTime                    52.308     (Insuf)    .00000     123
 On Site Patient.TranTime                    2.2325     (Insuf)    .00000     3.0000         43    
 On Site Patient.OtherTime                   1.4859     (Insuf)    .00000     14.931         43    
 On Site Patient.TotalTime                   76.646     (Insuf)    .11659     151.64         43    
-On Site Patient.VACost                      .50148     (Insuf)    .00389     .81758         43    
+On Site Patient.VACost                      .49140     (Insuf)    .00389     .80647         43    
 On Site Patient.NVACost                     .00000     (Insuf)    .00000     .00000         43    
 On Site Patient.WaitCost                    .00000     (Insuf)    .00000     .00000         43    
 On Site Patient.TranCost                    .00000     (Insuf)    .00000     .00000         43    
 On Site Patient.OtherCost                   .00000     (Insuf)    .00000     .00000         43    
-On Site Patient.TotalCost                   .50148     (Insuf)    .00389     .81758         43    
+On Site Patient.TotalCost                   .49140     (Insuf)    .00389     .80647         43    
 Online Patients.VATime                      16.686     (Insuf)    .19632     38.277         40    
 Online Patients.NVATime                     .00000     (Insuf)    .00000     .00000         40    
 Online Patients.WaitTime                    35.674     (Insuf)    .00000     107.37         40    
 Online Patients.TranTime                    1.9750     (Insuf)    .00000     3.0000         40    
 Online Patients.OtherTime                   .97579     (Insuf)    .00000     13.981         40    
 Online Patients.TotalTime                   55.311     (Insuf)    .19632     138.51         40    
-Online Patients.VACost                      .40959     (Insuf)    .00654     1.7044         40    
+Online Patients.VACost                      .40015     (Insuf)    .00294     1.6933         40    
 Online Patients.NVACost                     .00000     (Insuf)    .00000     .00000         40    
 Online Patients.WaitCost                    .00000     (Insuf)    .00000     .00000         40    
 Online Patients.TranCost                    .00000     (Insuf)    .00000     .00000         40    
 Online Patients.OtherCost                   .00000     (Insuf)    .00000     .00000         40    
-Online Patients.TotalCost                   .40959     (Insuf)    .00654     1.7044         40    
+Online Patients.TotalCost                   .40015     (Insuf)    .00294     1.6933         40    
 On Site Registration.Queue.WaitingTime      17.279     (Insuf)    .00000     28.420         79    
 On Site Registration.Queue.WaitingCost      .00000     (Insuf)    .00000     .00000         79    
 Emergency Process.Queue.WaitingTime         .00000     (Insuf)    .00000     .00000          1    
@@ -160,7 +160,7 @@ _____________________________________________________________
 
 Initial Health Assessment Total Accum Time  55.911    
 Initial Health Assessment Total Accum Cost  1.7458    
-Identify Priority Group Accum VA Cost       1.8444    
+Identify Priority Group Accum VA Cost       .00000    
 On Site Registration Accum Wait Time        1339.4    
 Identify Priority Group Accum VA Time       55.333    
 On Site Registration Accum Wait Cost        .00000    
@@ -218,7 +218,7 @@ Vaccination Accum VA Cost                   15.785
 Identify Priority Group Number In           166.00    
 Emergency Process Accum VA Cost             1.1707    
 Emergency Process Accum VA Time             14.049    
-Identify Priority Group Total Accum Cost    1.8444    
+Identify Priority Group Total Accum Cost    .00000    
 On Site Registration Number In              89.000    
 On Site Patient.NumberIn                    98.000    
 On Site Patient.NumberOut                   43.000    
@@ -241,8 +241,8 @@ Registration Officer.IdleCost               .02214
 Registration Officer.UsageCost              .00000    
 Priority Group Officer.NumberSeized         166.00    
 Priority Group Officer.ScheduledUtilizatio  .23056    
-Priority Group Officer.BusyCost             1.8444    
-Priority Group Officer.IdleCost             6.1555    
+Priority Group Officer.BusyCost             .00000    
+Priority Group Officer.IdleCost             .00000    
 Priority Group Officer.UsageCost            .00000    
 Vaccinator.NumberSeized                     62.000    
 Vaccinator.ScheduledUtilization             .79110    
@@ -259,19 +259,19 @@ Emergency Officer.ScheduledUtilization      .05854
 Emergency Officer.BusyCost                  1.1707    
 Emergency Officer.IdleCost                  18.829    
 Emergency Officer.UsageCost                 .00000    
-All Entities.VACost                         49.974    
+All Entities.VACost                         48.129    
 All Entities.NVACost                        .00000    
 All Entities.WaitCost                       .00000    
 All Entities.TranCost                       .00000    
 All Entities.OtherCost                      .00000    
-All Entities.TotalCost                      49.974    
-All Resources.BusyCost                      49.974    
-All Resources.IdleCost                      37.800    
+All Entities.TotalCost                      48.129    
+All Resources.BusyCost                      48.129    
+All Resources.IdleCost                      31.644    
 All Resources.UsageCost                     .00000    
-All Resources.TotalCost                     87.774    
-System.TotalCost                            87.774    
+All Resources.TotalCost                     79.774    
+System.TotalCost                            79.774    
 System.NumberOut                            83.000    
 
 
-Simulation run time: 0.03 minutes.
+Simulation run time: 0.40 minutes.
 Simulation run complete.
