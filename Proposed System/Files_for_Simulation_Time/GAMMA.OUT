@@ -1,0 +1,53 @@
+
+	Distribution Summary
+
+Distribution:	Gamma        
+Expression:	5 + GAMM(5.56, 3.49)
+Square Error:	0.267130
+
+Chi Square Test
+  Number of intervals	= 11
+  Degrees of freedom 	= 8
+  Test Statistic     	= 603
+  Corresponding p-value	< 0.005
+
+Kolmogorov-Smirnov Test
+  Test Statistic	= 0.289
+  Corresponding p-value	< 0.01
+
+	Data Summary
+
+Number of Data Points	= 300
+Min Data Value       	= 5.4
+Max Data Value       	= 59.1
+Sample Mean          	= 24.4
+Sample Std Dev       	= 11.3
+
+	Histogram Summary
+
+Histogram Range    	= 5 to 60
+Number of Intervals	= 17
+
+
+==================================================================
+Int.   No. of               Probability           Cumulative      
+No.    Data Pts.   x        Density               Distribution    
+------------------------------------------------------------------
+                            Data   Function       Data   Function   
+   0     6       8.24     0.0200    0.00849     0.0200    0.00849
+   1     8       11.5     0.0267     0.0531     0.0467     0.0616
+   2     9       14.7     0.0300      0.104     0.0767      0.166
+   3     9       17.9     0.0300      0.135      0.107      0.301
+   4   185       21.2      0.617      0.141      0.723      0.442
+   5    11       24.4     0.0367      0.130      0.760      0.573
+   6     7       27.6     0.0233      0.111      0.783      0.683
+   7    12       30.9     0.0400     0.0883      0.823      0.771
+   8     8       34.1     0.0267     0.0674      0.850      0.839
+   9     5       37.4     0.0167     0.0497      0.867      0.889
+  10     3       40.6     0.0100     0.0357      0.877      0.924
+  11     6       43.8     0.0200     0.0250      0.897      0.949
+  12     3       47.1     0.0100     0.0172      0.907      0.967
+  13     5       50.3     0.0167     0.0117      0.923      0.978
+  14    12       53.5     0.0400    0.00778      0.963      0.986
+  15     4       56.8     0.0133    0.00513      0.977      0.991
+  16     7       60.0     0.0233    0.00335       1.00      0.995
