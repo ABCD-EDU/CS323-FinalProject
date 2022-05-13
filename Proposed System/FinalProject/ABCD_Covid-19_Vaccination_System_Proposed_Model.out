@@ -5,7 +5,7 @@
                                   Summary for Replication 1 of 1
 
 Project: Covid                                                       Run execution date : 5/13/2022
-Analyst: Bryan                                                       Model revision date: 5/13/2022
+Analyst: ABCD                                                        Model revision date: 5/13/2022
 
 Replication ended at time      : 240.0 Minutes 
 Base Time Units: Minutes
@@ -17,20 +17,20 @@ ________________________________________________________________________________
 
 Identify Priority Group.TotalTimePerEntity  .34642     (Insuf)    .33333     .57043        161    
 Initial Health Assessment.VACostPerEntity   .00897     (Insuf)    .00274     .01742        175    
+Submission and Checking.VATimePerEntity     .49055     (Insuf)    .10052     .95457         86    
 Monitoring.VATimePerEntity                  15.998     (Insuf)    15.024     16.986        108    
+Submission and Checking.TotalCostPerEntity  .01635     (Insuf)    .00335     .03182         86    
 Vaccination.VACostPerEntity                 .26308     (Insuf)    .16305     .33232        119    
-Registration Form Submission and Checking.  .01635     (Insuf)    .00335     .03182         86    
-Registration Form Submission and Checking.  .49055     (Insuf)    .10052     .95457         86    
 Vaccination.TotalTimePerEntity              3.9936     (Insuf)    1.9635     9.4862        119    
 Identify Priority Group.VACostPerEntity     .00000     (Insuf)    .00000     .00000        161    
 Initial Health Assessment.WaitCostPerEntit  .00000     (Insuf)    .00000     .00000        175    
-Registration Form Submission and Checking.  .00000     (Insuf)    .00000     .00000         86    
 Health Screening.WaitTimePerEntity          14.281     (Insuf)    .00000     30.127        142    
 Health Screening.WaitCostPerEntity          .00000     (Insuf)    .00000     .00000        142    
+Submission and Checking.WaitTimePerEntity   .00965     (Insuf)    .00000     .15818         86    
 Taking Registration Form.VATimePerEntity    .14295     (Insuf)    .08747     .22654         87    
+Submission and Checking.WaitCostPerEntity   .00000     (Insuf)    .00000     .00000         86    
 Identify Priority Group.VATimePerEntity     .33333     (Insuf)    .33333     .33333        161    
 QR Code Verification.WaitTimePerEntity      .42074     (Insuf)    .00000     1.9579        152    
-Registration Form Submission and Checking.  .00965     (Insuf)    .00000     .15818         86    
 Vaccination.WaitTimePerEntity               .83678     (Insuf)    .00000     6.0755        119    
 Emergency Process.TotalCostPerEntity        1.1707     (Insuf)    1.1707     1.1707          1    
 Health Screening.VACostPerEntity            .21693     (Insuf)    .03532     .33080        142    
@@ -43,6 +43,7 @@ QR Code Verification.VATimePerEntity        1.2331     (Insuf)    .45003     2.4
 Health Screening.TotalTimePerEntity         17.535     (Insuf)    .63676     34.924        142    
 Health Screening.VATimePerEntity            3.2538     (Insuf)    .52975     4.9620        142    
 Taking Registration Form.WaitCostPerEntity  .00000     (Insuf)    .00000     .00000         87    
+Submission and Checking.TotalTimePerEntity  .50019     (Insuf)    .10052     .95457         86    
 Emergency Process.WaitTimePerEntity         .00000     (Insuf)    .00000     .00000          1    
 Taking Registration Form.TotalCostPerEntit  .00477     (Insuf)    .00292     .00755         87    
 Monitoring.VACostPerEntity                  .00000     (Insuf)    .00000     .00000        108    
@@ -51,18 +52,17 @@ Emergency Process.WaitCostPerEntity         .00000     (Insuf)    .00000     .00
 Vaccination.VATimePerEntity                 3.1569     (Insuf)    1.9566     3.9878        119    
 Initial Health Assessment.TotalCostPerEnti  .00897     (Insuf)    .00274     .01742        175    
 Initial Health Assessment.TotalTimePerEnti  .28621     (Insuf)    .08217     .71775        175    
-Registration Form Submission and Checking.  .01635     (Insuf)    .00335     .03182         86    
 Health Screening.TotalCostPerEntity         .21693     (Insuf)    .03532     .33080        142    
 Initial Health Assessment.WaitTimePerEntit  .01713     (Insuf)    .00000     .43749        175    
 Monitoring.TotalTimePerEntity               15.998     (Insuf)    15.024     16.986        108    
 Taking Registration Form.VACostPerEntity    .00477     (Insuf)    .00292     .00755         87    
 Taking Registration Form.TotalTimePerEntit  .26610     (Insuf)    .09124     .93071         87    
+Submission and Checking.VACostPerEntity     .01635     (Insuf)    .00335     .03182         86    
 Vaccination.WaitCostPerEntity               .00000     (Insuf)    .00000     .00000        119    
 QR Code Verification.VACostPerEntity        .04110     (Insuf)    .01500     .08144        152    
 Vaccination.TotalCostPerEntity              .26308     (Insuf)    .16305     .33232        119    
 Emergency Process.VACostPerEntity           1.1707     (Insuf)    1.1707     1.1707          1    
 Identify Priority Group.WaitTimePerEntity   .01308     (Insuf)    .00000     .23710        161    
-Registration Form Submission and Checking.  .50019     (Insuf)    .10052     .95457         86    
 Emergency Process.TotalTimePerEntity        14.049     (Insuf)    14.049     14.049          1    
 QR Code Verification.TotalCostPerEntity     .04110     (Insuf)    .01500     .08144        152    
 QR Code Verification.TotalTimePerEntity     1.6538     (Insuf)    .45003     4.0678        152    
@@ -99,14 +99,14 @@ QR Code Verification.Queue.WaitingTime      .42074     (Insuf)    .00000     1.9
 QR Code Verification.Queue.WaitingCost      .00000     (Insuf)    .00000     .00000        152    
 Identify Priority Group.Queue.WaitingTime   .01308     (Insuf)    .00000     .23710        161    
 Identify Priority Group.Queue.WaitingCost   .00000     (Insuf)    .00000     .00000        161    
+Submission and Checking.Queue.WaitingTime   .00953     (Insuf)    .00000     .15818         87    
+Submission and Checking.Queue.WaitingCost   .00000     (Insuf)    .00000     .00000         87    
 Taking Registration Form.Queue.WaitingTime  .12315     (Insuf)    .00000     .78015         87    
 Taking Registration Form.Queue.WaitingCost  .00000     (Insuf)    .00000     .00000         87    
 Initial Health Assessment.Queue.WaitingTim  .01704     (Insuf)    .00000     .43749        176    
 Initial Health Assessment.Queue.WaitingCos  .00000     (Insuf)    .00000     .00000        176    
 Vaccination.Queue.WaitingTime               .83236     (Insuf)    .00000     6.0755        121    
 Vaccination.Queue.WaitingCost               .00000     (Insuf)    .00000     .00000        121    
-Registration Form Submission and Checking.  .00953     (Insuf)    .00000     .15818         87    
-Registration Form Submission and Checking.  .00000     (Insuf)    .00000     .00000         87    
 
                                      DISCRETE-CHANGE VARIABLES
 
@@ -140,10 +140,10 @@ Emergency Process.Queue.NumberInQueue       .00000     (Insuf)    .00000     .00
 Health Screening.Queue.NumberInQueue        9.6581     (Insuf)    .00000     19.000     18.000    
 QR Code Verification.Queue.NumberInQueue    .26647     (Insuf)    .00000     2.0000     .00000    
 Identify Priority Group.Queue.NumberInQueu  .00878     (Insuf)    .00000     1.0000     .00000    
+Submission and Checking.Queue.NumberInQueu  .00346     (Insuf)    .00000     1.0000     .00000    
 Taking Registration Form.Queue.NumberInQue  .04464     (Insuf)    .00000     1.0000     .00000    
 Initial Health Assessment.Queue.NumberInQu  .01249     (Insuf)    .00000     1.0000     .00000    
 Vaccination.Queue.NumberInQueue             .41965     (Insuf)    .00000     4.0000     .00000    
-Registration Form Submission and Checking.  .00346     (Insuf)    .00000     1.0000     .00000    
 Monitoring Area.NumEntTrans                 .49534     (Insuf)    .00000     2.0000     1.0000    
 Screening Bay.NumEntTrans                   .61677     (Insuf)    .00000     2.0000     1.0000    
 Vax Bay.NumEntTrans                         .50538     (Insuf)    .00000     3.0000     1.0000    
@@ -167,18 +167,18 @@ Number of Unvaccinated Caused by High Bloo        6  Infinite
 Identifier                                   Value
 _____________________________________________________________
 
-Registration Form Submission and Checking   87.000    
 Initial Health Assessment Total Accum Time  50.086    
 Initial Health Assessment Total Accum Cost  1.5696    
 Identify Priority Group Accum VA Cost       .00000    
+Submission and Checking Total Accum Cost    1.4062    
+Submission and Checking Accum Wait Time     .82954    
 Identify Priority Group Accum VA Time       53.666    
+Submission and Checking Accum Wait Cost     .00000    
 Emergency Process Total Accum Cost          1.1707    
 Emergency Process Accum Wait Time           .00000    
 Health Screening Accum Wait Time            2028.0    
-Registration Form Submission and Checking   .00000    
 Emergency Process Accum Wait Cost           .00000    
 QR Code Verification Number In              152.00    
-Registration Form Submission and Checking   .82954    
 QR Code Verification Accum Wait Cost        .00000    
 QR Code Verification Accum Wait Time        63.952    
 Emergency Process Number Out                1.0000    
@@ -188,11 +188,9 @@ Initial Health Assessment Number Out        175.00
 Vaccination Total Accum Cost                31.305    
 Taking Registration Form Number In          87.000    
 Vaccination Total Accum Time                475.24    
-Registration Form Submission and Checking   1.4062    
 Monitoring Accum VA Cost                    .00000    
 Taking Registration Form Number Out         87.000    
 Health Screening Total Accum Cost           30.803    
-Registration Form Submission and Checking   43.016    
 Health Screening Number In                  162.00    
 QR Code Verification Total Accum Time       251.38    
 QR Code Verification Total Accum Cost       6.2478    
@@ -204,14 +202,18 @@ Monitoring Total Accum Cost                 .00000
 Vaccination Number Out                      119.00    
 Vaccination Number In                       121.00    
 Taking Registration Form Accum Wait Cost    .00000    
+Submission and Checking Number Out          86.000    
 Emergency Process Total Accum Time          14.049    
 Taking Registration Form Accum Wait Time    10.714    
+Submission and Checking Accum VA Time       42.186    
 Vaccination Accum Wait Cost                 .00000    
 Taking Registration Form Total Accum Time   23.150    
 Vaccination Accum Wait Time                 99.577    
 Identify Priority Group Total Accum Time    55.772    
+Submission and Checking Total Accum Time    43.016    
 Identify Priority Group Accum Wait Cost     .00000    
 Initial Health Assessment Accum VA Time     47.088    
+Submission and Checking Accum VA Cost       1.4062    
 Identify Priority Group Accum Wait Time     2.1062    
 Taking Registration Form Total Accum Cost   .41456    
 Taking Registration Form Accum VA Cost      .41456    
@@ -221,11 +223,10 @@ Initial Health Assessment Accum VA Cost     1.5696
 QR Code Verification Accum VA Time          187.43    
 QR Code Verification Accum VA Cost          6.2478    
 QR Code Verification Number Out             152.00    
+Submission and Checking Number In           87.000    
 Health Screening Total Accum Time           2490.0    
 Monitoring Number Out                       108.00    
 Monitoring Number In                        118.00    
-Registration Form Submission and Checking   42.186    
-Registration Form Submission and Checking   1.4062    
 Health Screening Accum Wait Cost            .00000    
 Health Screening Accum VA Time              462.05    
 Health Screening Accum VA Cost              30.803    
@@ -236,7 +237,6 @@ Identify Priority Group Number In           161.00
 Emergency Process Accum VA Cost             1.1707    
 Emergency Process Accum VA Time             14.049    
 Identify Priority Group Total Accum Cost    .00000    
-Registration Form Submission and Checking   86.000    
 On Site Patient.NumberIn                    99.000    
 On Site Patient.NumberOut                   76.000    
 Online Patients.NumberIn                    77.000    
@@ -290,5 +290,5 @@ System.TotalCost                            115.60
 System.NumberOut                            139.00    
 
 
-Simulation run time: 0.13 minutes.
+Simulation run time: 0.03 minutes.
 Simulation run complete.

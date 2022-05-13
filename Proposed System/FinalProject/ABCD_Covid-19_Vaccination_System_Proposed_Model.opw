@@ -7,15 +7,14 @@ Vaccinator
 Screening Nurse
 Emergency Officer
 [VARIABLES]
-Registration Form Submission and Checking.NumberIn
 Identify Priority Group.VACost
+Submission and Checking.WaitTime
 Identify Priority Group.VATime
+Submission and Checking.WaitCost
 Emergency Process.WaitTime
 Health Screening.WaitTime
-Registration Form Submission and Checking.WaitCost
 Emergency Process.WaitCost
 QR Code Verification.NumberIn
-Registration Form Submission and Checking.WaitTime
 QR Code Verification.WaitCost
 QR Code Verification.WaitTime
 Vaccination Patient Departs.NumberOut
@@ -37,13 +36,16 @@ Vaccination.NumberOut
 Vaccination.NumberIn
 Taking Registration Form.WaitCost
 High Temp or Severe Signs of Illness?.NumberOut True
+Submission and Checking.NumberOut
 Taking Registration Form.WaitTime
 is On Site Registered Patient?.NumberOut True
+Submission and Checking.VATime
 High Temp or Severe Signs of Illness?.NumberOut False
 Vaccination.WaitCost
 Vaccination.WaitTime
 Identify Priority Group.WaitCost
 Initial Health Assessment.VATime
+Submission and Checking.VACost
 Identify Priority Group.WaitTime
 Taking Registration Form.VACost
 Taking Registration Form.VATime
@@ -53,11 +55,10 @@ QR Code Verification.VATime
 Verification Success?.NumberOut True
 QR Code Verification.VACost
 QR Code Verification.NumberOut
+Submission and Checking.NumberIn
 Does the Patient show Negative Reactions.NumberOut False
 Monitoring.NumberOut
 Monitoring.NumberIn
-Registration Form Submission and Checking.VATime
-Registration Form Submission and Checking.VACost
 Does the Patient show Negative Reactions.NumberOut True
 Health Screening.WaitCost
 Health Screening.VATime
@@ -71,4 +72,3 @@ Identify Priority Group.NumberIn
 Emergency Process.VACost
 Emergency Process.VATime
 Not in Priority Group?.NumberOut False
-Registration Form Submission and Checking.NumberOut
