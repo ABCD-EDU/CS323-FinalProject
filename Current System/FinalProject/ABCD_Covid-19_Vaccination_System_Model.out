@@ -5,7 +5,7 @@
                                   Summary for Replication 1 of 1
 
 Project: Covid                                                       Run execution date : 5/13/2022
-Analyst: Bryan                                                       Model revision date: 5/13/2022
+Analyst: ABCD                                                        Model revision date: 5/13/2022
 
 Replication ended at time      : 240.0 Minutes 
 Base Time Units: Minutes
@@ -273,5 +273,5 @@ System.TotalCost                            87.774
 System.NumberOut                            83.000    
 
 
-Simulation run time: 0.03 minutes.
+Simulation run time: 0.25 minutes.
 Simulation run complete.
