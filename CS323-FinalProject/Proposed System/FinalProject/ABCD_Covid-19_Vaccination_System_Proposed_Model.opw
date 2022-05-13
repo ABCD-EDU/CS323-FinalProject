@@ -1,0 +1,74 @@
+[RESOURCES]
+Hospital Guard
+QR Code Verification Officer
+Registration Officer
+Priority Group Officer
+Vaccinator
+Screening Nurse
+Emergency Officer
+[VARIABLES]
+Identify Priority Group.VACost
+Submission and Checking.WaitTime
+Identify Priority Group.VATime
+Submission and Checking.WaitCost
+Emergency Process.WaitTime
+Health Screening.WaitTime
+Emergency Process.WaitCost
+QR Code Verification.NumberIn
+QR Code Verification.WaitCost
+QR Code Verification.WaitTime
+Vaccination Patient Departs.NumberOut
+Emergency Process.NumberOut
+Initial Health Assessment.NumberIn
+Emergency Process.NumberIn
+Initial Health Assessment.NumberOut
+Taking Registration Form.NumberIn
+On Site Patient Arrival.NumberOut
+Taking Registration Form.NumberOut
+Monitoring.VACost
+Health Screening.NumberIn
+Initial Health Assessment.WaitCost
+Vaccination.VATime
+Initial Health Assessment.WaitTime
+Health Screening.NumberOut
+is On Site Registered Patient?.NumberOut False
+Vaccination.NumberOut
+Vaccination.NumberIn
+Taking Registration Form.WaitCost
+High Temp or Severe Signs of Illness?.NumberOut True
+Submission and Checking.NumberOut
+Taking Registration Form.WaitTime
+is On Site Registered Patient?.NumberOut True
+Submission and Checking.VATime
+High Temp or Severe Signs of Illness?.NumberOut False
+Vaccination.WaitCost
+Vaccination.WaitTime
+Identify Priority Group.WaitCost
+Initial Health Assessment.VATime
+Submission and Checking.VACost
+Identify Priority Group.WaitTime
+Taking Registration Form.VACost
+Taking Registration Form.VATime
+Monitoring.VATime
+Initial Health Assessment.VACost
+QR Code Verification.VATime
+Verification Success?.NumberOut True
+QR Code Verification.VACost
+QR Code Verification.NumberOut
+Submission and Checking.NumberIn
+Does the Patient show Negative Reactions.NumberOut False
+Monitoring.NumberOut
+Monitoring.NumberIn
+Does the Patient show Negative Reactions.NumberOut True
+Health Screening.WaitCost
+Health Screening.VATime
+Verification Success?.NumberOut False
+Online Registered Patients Arrival.NumberOut
+Health Screening.VACost
+Identify Priority Group.NumberOut
+Vaccination.VACost
+Not in Priority Group?.NumberOut True
+Identify Priority Group.NumberIn
+Emergency Process.VACost
+Emergency Process.VATime
+Not in Priority Group?.NumberOut False

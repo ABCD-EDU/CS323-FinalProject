@@ -1,0 +1,26 @@
+Process:
+- Patients Arrives at the system, this does not mean that he/she arrives at the exact vaccination area rather it represents the people that are willing to be vaccinated on that day (to be fixed)
+- Patients decide wether they would want to apply online(30%) or on-site(70%)
+- Patient will be checked by (no on applied yet since I used decide module and this does not have a resource) for his temp and signs of illness (to be fixed)
+	- Ill or Hgh temp: Reschedule and patient departs the system
+	- Normal : Continue Someone will identify his/her priority group (requires another resource but I only used Delay module)
+- Someone will identify his/her priority group (requires another resource but I only used Delay module)(to be updated)
+	- In Priority Group: Continue
+	- Not in Priority Group : Reschedule and Depart
+- System will identify if the patient is online registered or on-site.
+	- Online : System will increment the number of online registered patient (Skip to QR Code Verification)
+	- On-site : Next Line 
+- Patient will line up on a queue for a registration (possible that stations should be used here since hospital entrance is not a viable registration area)
+- System will record the number of patients who chose walk-in registration method
+- QR Code Verification : Someone will check if there are no issues regarding to the patients QR Code
+	- No Problem: Proceed to Route to Screeninig Area
+	- Problem : Reschedule
+- Screening Station : Patient will lineup for Health Screening, blood pressure checking and other health-related questions 
+- Identify if the patient can be vaccinated
+	: Yes: Proceed to Vaccination Area
+	: Not yet: Delay for 10 mins (Lowering BP or any other reason) then proceed to Vaccination Area (possible that patient might want to go home or his/her BP is not getting normal so he she can choose to be rescheduled and depart)
+	: No : Reschedule and Depart
+- Vaccination Area: Patients will lineup for Vaccination Queue and will be vaccinated; Proceed to Monitoring Area
+- Monitoring Area: Patients will lineup for Monitoring (Delay is only used here but Resouce(Nurse) can be used here so it is possible to change it to Process module) (To be improved)
+- System will increment the number of vaccinated patients 
+- Patient Departs the system
