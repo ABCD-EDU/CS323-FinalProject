@@ -34,13 +34,15 @@ Health Screening.NumberOut
 is On Site Registered Patient?.NumberOut False
 Vaccination.NumberOut
 Vaccination.NumberIn
+Filling Out Form.VACost
 Taking Registration Form.WaitCost
 High Temp or Severe Signs of Illness?.NumberOut True
 Submission and Checking.NumberOut
 Taking Registration Form.WaitTime
+Filling Out Form.VATime
 is On Site Registered Patient?.NumberOut True
-Submission and Checking.VATime
 High Temp or Severe Signs of Illness?.NumberOut False
+Submission and Checking.VATime
 Vaccination.WaitCost
 Vaccination.WaitTime
 Identify Priority Group.WaitCost
@@ -60,6 +62,8 @@ Does the Patient show Negative Reactions.NumberOut False
 Monitoring.NumberOut
 Monitoring.NumberIn
 Does the Patient show Negative Reactions.NumberOut True
+Filling Out Form.NumberOut
+Filling Out Form.NumberIn
 Health Screening.WaitCost
 Health Screening.VATime
 Verification Success?.NumberOut False
