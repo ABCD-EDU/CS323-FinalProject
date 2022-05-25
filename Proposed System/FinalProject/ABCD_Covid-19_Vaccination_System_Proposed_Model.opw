@@ -63,8 +63,8 @@ Monitoring.NumberOut
 Monitoring.NumberIn
 Does the Patient show Negative Reactions.NumberOut True
 Filling Out Form.NumberOut
-Filling Out Form.NumberIn
 Health Screening.WaitCost
+Filling Out Form.NumberIn
 Health Screening.VATime
 Verification Success?.NumberOut False
 Online Registered Patients Arrival.NumberOut

@@ -1,15 +1,13 @@
-SIMAN Run Controller.
 
-158.15211 Minutes>
                                       ARENA Simulation Results
                                       Bryan - License: STUDENT
 
                                   Summary for Replication 1 of 1
 
-Project: Covid                                                       Run execution date : 5/14/2022
-Analyst: ABCD                                                        Model revision date: 5/14/2022
+Project: Covid                                                       Run execution date : 5/25/2022
+Analyst: ABCD                                                        Model revision date: 5/25/2022
 
-Replication ended at time      : 158.15211 Minutes 
+Replication ended at time      : 240.0 Minutes 
 Base Time Units: Minutes
 
                                            TALLY VARIABLES
@@ -17,290 +15,290 @@ Base Time Units: Minutes
 Identifier                                  Average   Half Width  Minimum    Maximum   Observations
 ___________________________________________________________________________________________________
 
-Identify Priority Group.TotalTimePerEntity  .34290     (Insuf)    .33333     .56854        106    
-Initial Health Assessment.VACostPerEntity   .01028     (Insuf)    .00252     .01742        116    
-Submission and Checking.VATimePerEntity     .40362     (Insuf)    .14889     .72266         55    
-Monitoring.VATimePerEntity                  16.094     (Insuf)    15.023     16.989         72    
-Submission and Checking.TotalCostPerEntity  .01345     (Insuf)    .00496     .02409         55    
-Filling Out Form.VACostPerEntity            .00000     (Insuf)    .00000     .00000         55    
-Vaccination.VACostPerEntity                 .24999     (Insuf)    .14960     .32559         81    
-Vaccination.TotalTimePerEntity              3.5584     (Insuf)    1.7951     7.2576         81    
-Identify Priority Group.VACostPerEntity     .00000     (Insuf)    .00000     .00000        106    
-Initial Health Assessment.WaitCostPerEntit  .00000     (Insuf)    .00000     .00000        116    
-Filling Out Form.TotalCostPerEntity         .00000     (Insuf)    .00000     .00000         55    
-Health Screening.WaitTimePerEntity          5.6567     (Insuf)    .00000     15.141         99    
-Health Screening.WaitCostPerEntity          .00000     (Insuf)    .00000     .00000         99    
-Submission and Checking.WaitTimePerEntity   .00432     (Insuf)    .00000     .16198         55    
-Taking Registration Form.VATimePerEntity    .15216     (Insuf)    .08861     .22699         57    
-Submission and Checking.WaitCostPerEntity   .00000     (Insuf)    .00000     .00000         55    
-Identify Priority Group.VATimePerEntity     .33333     (Insuf)    .33333     .33333        106    
-QR Code Verification.WaitTimePerEntity      .62432     (Insuf)    .00000     3.5404        100    
-Vaccination.WaitTimePerEntity               .55852     (Insuf)    .00000     3.9601         81    
+Identify Priority Group.TotalTimePerEntity  .36286     (Insuf)    .33333     .72015        165    
+Initial Health Assessment.VACostPerEntity   .44348     (Insuf)    .11181     .77405        174    
+Submission and Checking.VATimePerEntity     .39436     (Insuf)    .14889     1.1133         85    
+Monitoring.VATimePerEntity                  16.106     (Insuf)    15.011     16.989        108    
+Submission and Checking.TotalCostPerEntity  .58419     (Insuf)    .22055     1.6492         85    
+Filling Out Form.VACostPerEntity            .00000     (Insuf)    .00000     .00000         85    
+Vaccination.VACostPerEntity                 9.1683     (Insuf)    5.4593     11.922        118    
+Vaccination.TotalTimePerEntity              4.1911     (Insuf)    1.7951     19.791        118    
+Identify Priority Group.VACostPerEntity     .49378     (Insuf)    .49378     .49378        165    
+Initial Health Assessment.WaitCostPerEntit  .00000     (Insuf)    .00000     .00000        174    
+Filling Out Form.TotalCostPerEntity         .00000     (Insuf)    .00000     .00000         85    
+Health Screening.WaitTimePerEntity          13.095     (Insuf)    .00000     35.088        141    
+Health Screening.WaitCostPerEntity          .00000     (Insuf)    .00000     .00000        141    
+Submission and Checking.WaitTimePerEntity   .00879     (Insuf)    .00000     .28476         85    
+Taking Registration Form.VATimePerEntity    .14847     (Insuf)    .10503     .22699         85    
+Submission and Checking.WaitCostPerEntity   .00000     (Insuf)    .00000     .00000         85    
+Identify Priority Group.VATimePerEntity     .33333     (Insuf)    .33333     .33333        165    
+QR Code Verification.WaitTimePerEntity      1.3484     (Insuf)    .00000     7.1092        153    
+Vaccination.WaitTimePerEntity               1.1764     (Insuf)    .00000     16.026        118    
 Emergency Process.TotalCostPerEntity            --         --         --         --          0
-Health Screening.VACostPerEntity            .20489     (Insuf)    .03343     .33117         99    
-Monitoring.TotalCostPerEntity               .00000     (Insuf)    .00000     .00000         72    
-Identify Priority Group.WaitCostPerEntity   .00000     (Insuf)    .00000     .00000        106    
-Initial Health Assessment.VATimePerEntity   .30842     (Insuf)    .07548     .52254        116    
-QR Code Verification.WaitCostPerEntity      .00000     (Insuf)    .00000     .00000        100    
-Identify Priority Group.TotalCostPerEntity  .00000     (Insuf)    .00000     .00000        106    
-QR Code Verification.VATimePerEntity        1.2431     (Insuf)    .45555     2.3991        100    
-Health Screening.TotalTimePerEntity         8.7300     (Insuf)    .65514     19.991         99    
-Health Screening.VATimePerEntity            3.0733     (Insuf)    .50139     4.9675         99    
-Taking Registration Form.WaitCostPerEntity  .00000     (Insuf)    .00000     .00000         57    
-Submission and Checking.TotalTimePerEntity  .40794     (Insuf)    .14889     .83263         55    
+Health Screening.VACostPerEntity            9.4322     (Insuf)    1.5248     15.110        141    
+Monitoring.TotalCostPerEntity               .00000     (Insuf)    .00000     .00000        108    
+Identify Priority Group.WaitCostPerEntity   .00000     (Insuf)    .00000     .00000        165    
+Initial Health Assessment.VATimePerEntity   .29938     (Insuf)    .07548     .52254        174    
+QR Code Verification.WaitCostPerEntity      .00000     (Insuf)    .00000     .00000        153    
+Identify Priority Group.TotalCostPerEntity  .49378     (Insuf)    .49378     .49378        165    
+QR Code Verification.VATimePerEntity        1.1963     (Insuf)    .45045     2.4589        153    
+Health Screening.TotalTimePerEntity         16.196     (Insuf)    .65514     38.958        141    
+Health Screening.VATimePerEntity            3.1015     (Insuf)    .50139     4.9685        141    
+Taking Registration Form.WaitCostPerEntity  .00000     (Insuf)    .00000     .00000         85    
+Submission and Checking.TotalTimePerEntity  .40316     (Insuf)    .14889     1.2099         85    
 Emergency Process.WaitTimePerEntity             --         --         --         --          0
-Taking Registration Form.TotalCostPerEntit  .00507     (Insuf)    .00295     .00757         57    
-Monitoring.VACostPerEntity                  .00000     (Insuf)    .00000     .00000         72    
+Taking Registration Form.TotalCostPerEntit  .21993     (Insuf)    .15559     .33625         85    
+Monitoring.VACostPerEntity                  .00000     (Insuf)    .00000     .00000        108    
 Emergency Process.VATimePerEntity               --         --         --         --          0
 Emergency Process.WaitCostPerEntity             --         --         --         --          0
-Vaccination.VATimePerEntity                 2.9999     (Insuf)    1.7951     3.9070         81    
-Filling Out Form.VATimePerEntity            1.8873     (Insuf)    1.1458     2.9975         55    
-Initial Health Assessment.TotalCostPerEnti  .01028     (Insuf)    .00252     .01742        116    
-Initial Health Assessment.TotalTimePerEnti  .33568     (Insuf)    .07548     .72260        116    
-Health Screening.TotalCostPerEntity         .20489     (Insuf)    .03343     .33117         99    
-Initial Health Assessment.WaitTimePerEntit  .02726     (Insuf)    .00000     .39465        116    
-Monitoring.TotalTimePerEntity               16.094     (Insuf)    15.023     16.989         72    
-Taking Registration Form.VACostPerEntity    .00507     (Insuf)    .00295     .00757         57    
-Taking Registration Form.TotalTimePerEntit  .17444     (Insuf)    .09490     .49087         57    
-Submission and Checking.VACostPerEntity     .01345     (Insuf)    .00496     .02409         55    
-Vaccination.WaitCostPerEntity               .00000     (Insuf)    .00000     .00000         81    
-Filling Out Form.TotalTimePerEntity         1.8873     (Insuf)    1.1458     2.9975         55    
-QR Code Verification.VACostPerEntity        .04144     (Insuf)    .01518     .07997        100    
-Vaccination.TotalCostPerEntity              .24999     (Insuf)    .14960     .32559         81    
+Vaccination.VATimePerEntity                 3.0147     (Insuf)    1.7951     3.9204        118    
+Filling Out Form.VATimePerEntity            1.9684     (Insuf)    1.1458     2.9975         85    
+Initial Health Assessment.TotalCostPerEnti  .44348     (Insuf)    .11181     .77405        174    
+Initial Health Assessment.TotalTimePerEnti  .93965     (Insuf)    .07548     15.035        174    
+Health Screening.TotalCostPerEntity         9.4322     (Insuf)    1.5248     15.110        141    
+Initial Health Assessment.WaitTimePerEntit  .64027     (Insuf)    .00000     14.805        174    
+Monitoring.TotalTimePerEntity               16.106     (Insuf)    15.011     16.989        108    
+Taking Registration Form.VACostPerEntity    .21993     (Insuf)    .15559     .33625         85    
+Taking Registration Form.TotalTimePerEntit  .36195     (Insuf)    .10547     15.137         85    
+Submission and Checking.VACostPerEntity     .58419     (Insuf)    .22055     1.6492         85    
+Vaccination.WaitCostPerEntity               .00000     (Insuf)    .00000     .00000        118    
+Filling Out Form.TotalTimePerEntity         1.9684     (Insuf)    1.1458     2.9975         85    
+QR Code Verification.VACostPerEntity        1.7721     (Insuf)    .66727     3.6425        153    
+Vaccination.TotalCostPerEntity              9.1683     (Insuf)    5.4593     11.922        118    
 Emergency Process.VACostPerEntity               --         --         --         --          0
-Identify Priority Group.WaitTimePerEntity   .00956     (Insuf)    .00000     .23520        106    
+Identify Priority Group.WaitTimePerEntity   .02953     (Insuf)    .00000     .38682        165    
 Emergency Process.TotalTimePerEntity            --         --         --         --          0
-QR Code Verification.TotalCostPerEntity     .04144     (Insuf)    .01518     .07997        100    
-QR Code Verification.TotalTimePerEntity     1.8674     (Insuf)    .45555     5.6048        100    
-Taking Registration Form.WaitTimePerEntity  .02228     (Insuf)    .00000     .34581         57    
-On Site Patient.VATime                      22.308     (Insuf)    .07548     31.357         48    
-On Site Patient.NVATime                     .00000     (Insuf)    .00000     .00000         48    
-On Site Patient.WaitTime                    4.7455     (Insuf)    .00000     12.678         48    
-On Site Patient.TranTime                    2.4583     (Insuf)    .00000     3.0000         48    
-On Site Patient.OtherTime                   1.1519     (Insuf)    .00000     27.865         48    
-On Site Patient.TotalTime                   30.663     (Insuf)    .07548     62.028         48    
-On Site Patient.VACost                      .46202     (Insuf)    .00252     .71276         48    
-On Site Patient.NVACost                     .00000     (Insuf)    .00000     .00000         48    
-On Site Patient.WaitCost                    .00000     (Insuf)    .00000     .00000         48    
-On Site Patient.TranCost                    .00000     (Insuf)    .00000     .00000         48    
-On Site Patient.OtherCost                   .00000     (Insuf)    .00000     .00000         48    
-On Site Patient.TotalCost                   .46202     (Insuf)    .00252     .71276         48    
-Online Patients.VATime                      20.121     (Insuf)    .12928     27.037         40    
-Online Patients.NVATime                     .00000     (Insuf)    .00000     .00000         40    
-Online Patients.WaitTime                    5.8121     (Insuf)    .00000     15.615         40    
-Online Patients.TranTime                    2.5000     (Insuf)    .00000     3.0000         40    
-Online Patients.OtherTime                   1.4658     (Insuf)    .00000     12.405         40    
-Online Patients.TotalTime                   29.899     (Insuf)    .12928     53.327         40    
-Online Patients.VACost                      .43754     (Insuf)    .00431     .66519         40    
-Online Patients.NVACost                     .00000     (Insuf)    .00000     .00000         40    
-Online Patients.WaitCost                    .00000     (Insuf)    .00000     .00000         40    
-Online Patients.TranCost                    .00000     (Insuf)    .00000     .00000         40    
-Online Patients.OtherCost                   .00000     (Insuf)    .00000     .00000         40    
-Online Patients.TotalCost                   .43754     (Insuf)    .00431     .66519         40    
+QR Code Verification.TotalCostPerEntity     1.7721     (Insuf)    .66727     3.6425        153    
+QR Code Verification.TotalTimePerEntity     2.5448     (Insuf)    .45555     8.4761        153    
+Taking Registration Form.WaitTimePerEntity  .21348     (Insuf)    .00000     14.986         85    
+On Site Patient.VATime                      20.958     (Insuf)    .07548     31.357         77    
+On Site Patient.NVATime                     .00000     (Insuf)    .00000     .00000         77    
+On Site Patient.WaitTime                    12.881     (Insuf)    .00000     35.681         77    
+On Site Patient.TranTime                    2.2987     (Insuf)    .00000     3.0000         77    
+On Site Patient.OtherTime                   .87353     (Insuf)    .00000     27.865         77    
+On Site Patient.TotalTime                   37.011     (Insuf)    .07548     78.804         77    
+On Site Patient.VACost                      18.545     (Insuf)    .11181     30.389         77    
+On Site Patient.NVACost                     .00000     (Insuf)    .00000     .00000         77    
+On Site Patient.WaitCost                    .00000     (Insuf)    .00000     .00000         77    
+On Site Patient.TranCost                    .00000     (Insuf)    .00000     .00000         77    
+On Site Patient.OtherCost                   .00000     (Insuf)    .00000     .00000         77    
+On Site Patient.TotalCost                   18.545     (Insuf)    .11181     30.389         77    
+Online Patients.VATime                      21.062     (Insuf)    .42172     27.223         58    
+Online Patients.NVATime                     .00000     (Insuf)    .00000     .00000         58    
+Online Patients.WaitTime                    14.642     (Insuf)    .00000     34.948         58    
+Online Patients.TranTime                    2.6206     (Insuf)    .00000     3.0000         58    
+Online Patients.OtherTime                   1.2569     (Insuf)    .00000     25.977         58    
+Online Patients.TotalTime                   39.582     (Insuf)    .42172     68.370         58    
+Online Patients.VACost                      19.487     (Insuf)    .62471     29.578         58    
+Online Patients.NVACost                     .00000     (Insuf)    .00000     .00000         58    
+Online Patients.WaitCost                    .00000     (Insuf)    .00000     .00000         58    
+Online Patients.TranCost                    .00000     (Insuf)    .00000     .00000         58    
+Online Patients.OtherCost                   .00000     (Insuf)    .00000     .00000         58    
+Online Patients.TotalCost                   19.487     (Insuf)    .62471     29.578         58    
 Emergency Process.Queue.WaitingTime             --         --         --         --          0
 Emergency Process.Queue.WaitingCost             --         --         --         --          0
-Health Screening.Queue.WaitingTime          5.6972     (Insuf)    .00000     15.141        101    
-Health Screening.Queue.WaitingCost          .00000     (Insuf)    .00000     .00000        101    
-QR Code Verification.Queue.WaitingTime      .62748     (Insuf)    .00000     3.5404        101    
-QR Code Verification.Queue.WaitingCost      .00000     (Insuf)    .00000     .00000        101    
-Identify Priority Group.Queue.WaitingTime   .00956     (Insuf)    .00000     .23520        106    
-Identify Priority Group.Queue.WaitingCost   .00000     (Insuf)    .00000     .00000        106    
-Submission and Checking.Queue.WaitingTime   .00432     (Insuf)    .00000     .16198         55    
-Submission and Checking.Queue.WaitingCost   .00000     (Insuf)    .00000     .00000         55    
-Taking Registration Form.Queue.WaitingTime  .02228     (Insuf)    .00000     .34581         57    
-Taking Registration Form.Queue.WaitingCost  .00000     (Insuf)    .00000     .00000         57    
-Initial Health Assessment.Queue.WaitingTim  .02726     (Insuf)    .00000     .39465        116    
-Initial Health Assessment.Queue.WaitingCos  .00000     (Insuf)    .00000     .00000        116    
-Vaccination.Queue.WaitingTime               .55171     (Insuf)    .00000     3.9601         82    
-Vaccination.Queue.WaitingCost               .00000     (Insuf)    .00000     .00000         82    
+Health Screening.Queue.WaitingTime          13.351     (Insuf)    .00000     35.088        143    
+Health Screening.Queue.WaitingCost          .00000     (Insuf)    .00000     .00000        143    
+QR Code Verification.Queue.WaitingTime      1.3432     (Insuf)    .00000     7.1092        154    
+QR Code Verification.Queue.WaitingCost      .00000     (Insuf)    .00000     .00000        154    
+Identify Priority Group.Queue.WaitingTime   .02953     (Insuf)    .00000     .38682        165    
+Identify Priority Group.Queue.WaitingCost   .00000     (Insuf)    .00000     .00000        165    
+Submission and Checking.Queue.WaitingTime   .00879     (Insuf)    .00000     .28476         85    
+Submission and Checking.Queue.WaitingCost   .00000     (Insuf)    .00000     .00000         85    
+Taking Registration Form.Queue.WaitingTime  .21348     (Insuf)    .00000     14.986         85    
+Taking Registration Form.Queue.WaitingCost  .00000     (Insuf)    .00000     .00000         85    
+Initial Health Assessment.Queue.WaitingTim  .63661     (Insuf)    .00000     14.805        175    
+Initial Health Assessment.Queue.WaitingCos  .00000     (Insuf)    .00000     .00000        175    
+Vaccination.Queue.WaitingTime               1.1614     (Insuf)    .00000     16.026        120    
+Vaccination.Queue.WaitingCost               .00000     (Insuf)    .00000     .00000        120    
 
                                      DISCRETE-CHANGE VARIABLES
 
 Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
 ___________________________________________________________________________________________________
 
-On Site Patient.WIP                         11.754     (Insuf)    .00000     17.000     17.000    
-Online Patients.WIP                         9.1059     (Insuf)    .00000     13.000     11.000    
-Hospital Guard.NumberBusy                   .22622     (Insuf)    .00000     1.0000     .00000    
-Hospital Guard.NumberScheduled              1.0000     (Insuf)    1.0000     1.0000     1.0000    
-Hospital Guard.Utilization                  .22622     (Insuf)    .00000     1.0000     .00000    
-QR Code Verification Officer.NumberBusy     .79278     (Insuf)    .00000     1.0000     1.0000    
-QR Code Verification Officer.NumberSchedul  1.0000     (Insuf)    1.0000     1.0000     1.0000    
-QR Code Verification Officer.Utilization    .79278     (Insuf)    .00000     1.0000     1.0000    
-Registration Officer.NumberBusy             .19521     (Insuf)    .00000     1.0000     .00000    
-Registration Officer.NumberScheduled        1.0000     (Insuf)    1.0000     1.0000     1.0000    
-Registration Officer.Utilization            .19521     (Insuf)    .00000     1.0000     .00000    
-Priority Group Officer.NumberBusy           .22341     (Insuf)    .00000     1.0000     .00000    
-Priority Group Officer.NumberScheduled      1.0000     (Insuf)    1.0000     1.0000     1.0000    
-Priority Group Officer.Utilization          .22341     (Insuf)    .00000     1.0000     .00000    
-Vaccinator.NumberBusy                       1.5391     (Insuf)    .00000     2.0000     1.0000    
-Vaccinator.NumberScheduled                  2.0000     (Insuf)    2.0000     2.0000     2.0000    
-Vaccinator.Utilization                      .76958     (Insuf)    .00000     1.0000     .50000    
-Screening Nurse.NumberBusy                  1.9365     (Insuf)    .00000     2.0000     2.0000    
-Screening Nurse.NumberScheduled             2.0000     (Insuf)    2.0000     2.0000     2.0000    
-Screening Nurse.Utilization                 .96826     (Insuf)    .00000     1.0000     1.0000    
+On Site Patient.WIP                         14.755     (Insuf)    .00000     24.000     23.000    
+Online Patients.WIP                         11.784     (Insuf)    .00000     19.000     17.000    
+Hospital Guard.NumberBusy                   .21760     (Insuf)    .00000     1.0000     1.0000    
+Hospital Guard.NumberScheduled              .93750     (Insuf)    .00000     1.0000     1.0000    
+Hospital Guard.Utilization                  .21760     (Insuf)    .00000     1.0000     1.0000    
+QR Code Verification Officer.NumberBusy     .76463     (Insuf)    .00000     1.0000     1.0000    
+QR Code Verification Officer.NumberSchedul  .93704     (Insuf)    .00000     1.0000     1.0000    
+QR Code Verification Officer.Utilization    .76463     (Insuf)    .00000     1.0000     1.0000    
+Registration Officer.NumberBusy             .19225     (Insuf)    .00000     1.0000     .00000    
+Registration Officer.NumberScheduled        .93750     (Insuf)    .00000     1.0000     1.0000    
+Registration Officer.Utilization            .19225     (Insuf)    .00000     1.0000     .00000    
+Priority Group Officer.NumberBusy           .22917     (Insuf)    .00000     1.0000     .00000    
+Priority Group Officer.NumberScheduled      .93744     (Insuf)    .00000     1.0000     1.0000    
+Priority Group Officer.Utilization          .22917     (Insuf)    .00000     1.0000     .00000    
+Vaccinator.NumberBusy                       1.4925     (Insuf)    .00000     2.0000     2.0000    
+Vaccinator.NumberScheduled                  1.8682     (Insuf)    .00000     2.0000     2.0000    
+Vaccinator.Utilization                      .74647     (Insuf)    .00000     1.0000     1.0000    
+Screening Nurse.NumberBusy                  1.8319     (Insuf)    .00000     2.0000     2.0000    
+Screening Nurse.NumberScheduled             1.8560     (Insuf)    .00000     2.0000     2.0000    
+Screening Nurse.Utilization                 .91658     (Insuf)    .00000     1.0000     1.0000    
 Emergency Officer.NumberBusy                .00000     (Insuf)    .00000     .00000     .00000    
-Emergency Officer.NumberScheduled           1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Emergency Officer.NumberScheduled           .93750     (Insuf)    .00000     1.0000     1.0000    
 Emergency Officer.Utilization               .00000     (Insuf)    .00000     .00000     .00000    
 Emergency Process.Queue.NumberInQueue       .00000     (Insuf)    .00000     .00000     .00000    
-Health Screening.Queue.NumberInQueue        4.1242     (Insuf)    .00000     11.000     10.000    
-QR Code Verification.Queue.NumberInQueue    .40073     (Insuf)    .00000     3.0000     .00000    
-Identify Priority Group.Queue.NumberInQueu  .00641     (Insuf)    .00000     1.0000     .00000    
-Submission and Checking.Queue.NumberInQueu  .00150     (Insuf)    .00000     1.0000     .00000    
-Taking Registration Form.Queue.NumberInQue  .00803     (Insuf)    .00000     1.0000     .00000    
-Initial Health Assessment.Queue.NumberInQu  .01999     (Insuf)    .00000     1.0000     .00000    
-Vaccination.Queue.NumberInQueue             .28606     (Insuf)    .00000     3.0000     .00000    
-Monitoring Area.NumEntTrans                 .50769     (Insuf)    .00000     2.0000     1.0000    
-Screening Bay.NumEntTrans                   .62598     (Insuf)    .00000     2.0000     .00000    
-Vax Bay.NumEntTrans                         .52212     (Insuf)    .00000     3.0000     1.0000    
+Health Screening.Queue.NumberInQueue        9.2196     (Insuf)    .00000     23.000     20.000    
+QR Code Verification.Queue.NumberInQueue    .86203     (Insuf)    .00000     8.0000     1.0000    
+Identify Priority Group.Queue.NumberInQueu  .02030     (Insuf)    .00000     2.0000     .00000    
+Submission and Checking.Queue.NumberInQueu  .00311     (Insuf)    .00000     1.0000     .00000    
+Taking Registration Form.Queue.NumberInQue  .07561     (Insuf)    .00000     2.0000     .00000    
+Initial Health Assessment.Queue.NumberInQu  .46420     (Insuf)    .00000     12.000     .00000    
+Vaccination.Queue.NumberInQueue             .58565     (Insuf)    .00000     4.0000     1.0000    
+Monitoring Area.NumEntTrans                 .49046     (Insuf)    .00000     2.0000     1.0000    
+Screening Bay.NumEntTrans                   .62280     (Insuf)    .00000     3.0000     1.0000    
+Vax Bay.NumEntTrans                         .50485     (Insuf)    .00000     3.0000     1.0000    
 
                                              COUNTERS
 
 Identifier                                    Count   Limit
 _____________________________________________________________
 
-Online Registered Patients                       46  Infinite
-Number of Unvaccinated Caused By High Temp       10  Infinite
-Successfully Vaccinated Patients                 72  Infinite
-Number of Unvaccinated Caused by QR Code V        1  Infinite
+Online Registered Patients                       70  Infinite
+Number of Unvaccinated Caused By High Temp        9  Infinite
+Successfully Vaccinated Patients                108  Infinite
+Number of Unvaccinated Caused by QR Code V        3  Infinite
 Number of Successful Vaccination but Shows        0  Infinite
-On Site Registered Patients                      55  Infinite
-Number of Unvaccinated Caused by Wrong Pri        3  Infinite
-Number of Unvaccinated Caused by High Bloo        2  Infinite
+On Site Registered Patients                      85  Infinite
+Number of Unvaccinated Caused by Wrong Pri       10  Infinite
+Number of Unvaccinated Caused by High Bloo        5  Infinite
 
                                              OUTPUTS
 
 Identifier                                   Value
 _____________________________________________________________
 
-Initial Health Assessment Total Accum Time  38.939    
-Initial Health Assessment Total Accum Cost  1.1925    
-Identify Priority Group Accum VA Cost       .00000    
+Initial Health Assessment Total Accum Time  163.49    
+Initial Health Assessment Total Accum Cost  77.165    
+Identify Priority Group Accum VA Cost       81.473    
 Filling Out Form Total Accum Cost           .00000    
-Submission and Checking Total Accum Cost    .73997    
-Submission and Checking Accum Wait Time     .23778    
-Identify Priority Group Accum VA Time       35.333    
+Submission and Checking Total Accum Cost    49.655    
+Submission and Checking Accum Wait Time     .74732    
+Identify Priority Group Accum VA Time       55.000    
 Submission and Checking Accum Wait Cost     .00000    
 Emergency Process Total Accum Cost          .00000    
 Emergency Process Accum Wait Time           .00000    
-Health Screening Accum Wait Time            560.01    
+Health Screening Accum Wait Time            1846.4    
 Emergency Process Accum Wait Cost           .00000    
-QR Code Verification Number In              101.00    
+QR Code Verification Number In              155.00    
 QR Code Verification Accum Wait Cost        .00000    
-QR Code Verification Accum Wait Time        62.431    
+QR Code Verification Accum Wait Time        206.31    
 Emergency Process Number Out                .00000    
-Initial Health Assessment Number In         116.00    
+Initial Health Assessment Number In         175.00    
 Emergency Process Number In                 .00000    
-Initial Health Assessment Number Out        116.00    
-Vaccination Total Accum Cost                20.249    
-Taking Registration Form Number In          57.000    
-Vaccination Total Accum Time                288.23    
-Filling Out Form Total Accum Time           103.80    
+Initial Health Assessment Number Out        174.00    
+Vaccination Total Accum Cost                1081.8    
+Taking Registration Form Number In          85.000    
+Vaccination Total Accum Time                494.55    
+Filling Out Form Total Accum Time           167.31    
 Monitoring Accum VA Cost                    .00000    
-Taking Registration Form Number Out         57.000    
-Health Screening Total Accum Cost           20.284    
-Health Screening Number In                  111.00    
-QR Code Verification Total Accum Time       186.74    
-QR Code Verification Total Accum Cost       4.1436    
+Taking Registration Form Number Out         85.000    
+Health Screening Total Accum Cost           1329.9    
+Health Screening Number In                  163.00    
+QR Code Verification Total Accum Time       389.35    
+QR Code Verification Total Accum Cost       271.14    
 Initial Health Assessment Accum Wait Cost   .00000    
-Initial Health Assessment Accum Wait Time   3.1620    
-Vaccination Accum VA Time                   242.99    
-Health Screening Number Out                 99.000    
+Initial Health Assessment Accum Wait Time   111.40    
+Vaccination Accum VA Time                   355.73    
+Health Screening Number Out                 141.00    
 Monitoring Total Accum Cost                 .00000    
-Vaccination Number Out                      81.000    
-Vaccination Number In                       82.000    
+Vaccination Number Out                      118.00    
+Vaccination Number In                       121.00    
 Filling Out Form Accum VA Cost              .00000    
 Taking Registration Form Accum Wait Cost    .00000    
-Submission and Checking Number Out          55.000    
+Submission and Checking Number Out          85.000    
 Emergency Process Total Accum Time          .00000    
-Taking Registration Form Accum Wait Time    1.2698    
-Filling Out Form Accum VA Time              103.80    
-Submission and Checking Accum VA Time       22.198    
+Taking Registration Form Accum Wait Time    18.146    
+Filling Out Form Accum VA Time              167.31    
+Submission and Checking Accum VA Time       33.521    
 Vaccination Accum Wait Cost                 .00000    
-Taking Registration Form Total Accum Time   9.9430    
-Vaccination Accum Wait Time                 45.240    
-Identify Priority Group Total Accum Time    36.346    
-Submission and Checking Total Accum Time    22.436    
+Taking Registration Form Total Accum Time   30.765    
+Vaccination Accum Wait Time                 138.82    
+Identify Priority Group Total Accum Time    59.871    
+Submission and Checking Total Accum Time    34.268    
 Identify Priority Group Accum Wait Cost     .00000    
-Initial Health Assessment Accum VA Time     35.777    
-Submission and Checking Accum VA Cost       .73997    
-Identify Priority Group Accum Wait Time     1.0135    
-Taking Registration Form Total Accum Cost   .28911    
-Taking Registration Form Accum VA Cost      .28911    
-Monitoring Accum VA Time                    1158.7    
-Taking Registration Form Accum VA Time      8.6731    
-Initial Health Assessment Accum VA Cost     1.1925    
-QR Code Verification Accum VA Time          124.30    
-QR Code Verification Accum VA Cost          4.1436    
-QR Code Verification Number Out             100.00    
-Submission and Checking Number In           55.000    
-Health Screening Total Accum Time           864.27    
-Monitoring Number Out                       72.000    
-Monitoring Number In                        80.000    
-Filling Out Form Number Out                 55.000    
-Filling Out Form Number In                  57.000    
+Initial Health Assessment Accum VA Time     52.091    
+Submission and Checking Accum VA Cost       49.655    
+Identify Priority Group Accum Wait Time     4.8716    
+Taking Registration Form Total Accum Cost   18.694    
+Taking Registration Form Accum VA Cost      18.694    
+Monitoring Accum VA Time                    1739.5    
+Taking Registration Form Accum VA Time      12.619    
+Initial Health Assessment Accum VA Cost     77.165    
+QR Code Verification Accum VA Time          183.03    
+QR Code Verification Accum VA Cost          271.14    
+QR Code Verification Number Out             153.00    
+Submission and Checking Number In           85.000    
+Health Screening Total Accum Time           2283.7    
+Monitoring Number Out                       108.00    
+Monitoring Number In                        117.00    
+Filling Out Form Number Out                 85.000    
+Filling Out Form Number In                  85.000    
 Health Screening Accum Wait Cost            .00000    
-Health Screening Accum VA Time              304.26    
-Health Screening Accum VA Cost              20.284    
-Identify Priority Group Number Out          106.00    
-Monitoring Total Accum Time                 1158.7    
-Vaccination Accum VA Cost                   20.249    
-Identify Priority Group Number In           106.00    
+Health Screening Accum VA Time              437.31    
+Health Screening Accum VA Cost              1329.9    
+Identify Priority Group Number Out          165.00    
+Monitoring Total Accum Time                 1739.5    
+Vaccination Accum VA Cost                   1081.8    
+Identify Priority Group Number In           165.00    
 Emergency Process Accum VA Cost             .00000    
 Emergency Process Accum VA Time             .00000    
-Identify Priority Group Total Accum Cost    .00000    
-On Site Patient.NumberIn                    65.000    
-On Site Patient.NumberOut                   48.000    
-Online Patients.NumberIn                    51.000    
-Online Patients.NumberOut                   40.000    
-Hospital Guard.NumberSeized                 116.00    
-Hospital Guard.ScheduledUtilization         .22622    
-Hospital Guard.BusyCost                     1.1925    
-Hospital Guard.IdleCost                     4.0791    
+Identify Priority Group Total Accum Cost    81.473    
+On Site Patient.NumberIn                    100.00    
+On Site Patient.NumberOut                   77.000    
+Online Patients.NumberIn                    75.000    
+Online Patients.NumberOut                   58.000    
+Hospital Guard.NumberSeized                 175.00    
+Hospital Guard.ScheduledUtilization         .23211    
+Hospital Guard.BusyCost                     77.165    
+Hospital Guard.IdleCost                     255.93    
 Hospital Guard.UsageCost                    .00000    
-QR Code Verification Officer.NumberSeized   101.00    
-QR Code Verification Officer.ScheduledUtil  .79278    
-QR Code Verification Officer.BusyCost       4.1436    
-QR Code Verification Officer.IdleCost       1.0924    
+QR Code Verification Officer.NumberSeized   154.00    
+QR Code Verification Officer.ScheduledUtil  .81600    
+QR Code Verification Officer.BusyCost       271.14    
+QR Code Verification Officer.IdleCost       61.460    
 QR Code Verification Officer.UsageCost      .00000    
-Registration Officer.NumberSeized           112.00    
-Registration Officer.ScheduledUtilization   .19521    
-Registration Officer.BusyCost               1.0290    
-Registration Officer.IdleCost               4.2426    
+Registration Officer.NumberSeized           170.00    
+Registration Officer.ScheduledUtilization   .20507    
+Registration Officer.BusyCost               68.349    
+Registration Officer.IdleCost               264.95    
 Registration Officer.UsageCost              .00000    
-Priority Group Officer.NumberSeized         106.00    
-Priority Group Officer.ScheduledUtilizatio  .22341    
-Priority Group Officer.BusyCost             .00000    
-Priority Group Officer.IdleCost             .00000    
+Priority Group Officer.NumberSeized         165.00    
+Priority Group Officer.ScheduledUtilizatio  .24446    
+Priority Group Officer.BusyCost             81.473    
+Priority Group Officer.IdleCost             251.82    
 Priority Group Officer.UsageCost            .00000    
-Vaccinator.NumberSeized                     82.000    
-Vaccinator.ScheduledUtilization             .76958    
-Vaccinator.BusyCost                         20.249    
-Vaccinator.IdleCost                         6.0735    
+Vaccinator.NumberSeized                     120.00    
+Vaccinator.ScheduledUtilization             .79890    
+Vaccinator.BusyCost                         1081.8    
+Vaccinator.IdleCost                         278.85    
 Vaccinator.UsageCost                        .00000    
-Screening Nurse.NumberSeized                101.00    
-Screening Nurse.ScheduledUtilization        .96826    
-Screening Nurse.BusyCost                    20.284    
-Screening Nurse.IdleCost                    .66939    
+Screening Nurse.NumberSeized                143.00    
+Screening Nurse.ScheduledUtilization        .98701    
+Screening Nurse.BusyCost                    1329.9    
+Screening Nurse.IdleCost                    30.535    
 Screening Nurse.UsageCost                   .00000    
 Emergency Officer.NumberSeized              .00000    
 Emergency Officer.ScheduledUtilization      .00000    
 Emergency Officer.BusyCost                  .00000    
-Emergency Officer.IdleCost                  13.179    
+Emergency Officer.IdleCost                  684.26    
 Emergency Officer.UsageCost                 .00000    
-All Entities.VACost                         46.898    
+All Entities.VACost                         2909.9    
 All Entities.NVACost                        .00000    
 All Entities.WaitCost                       .00000    
 All Entities.TranCost                       .00000    
 All Entities.OtherCost                      .00000    
-All Entities.TotalCost                      46.898    
-All Resources.BusyCost                      46.898    
-All Resources.IdleCost                      29.336    
+All Entities.TotalCost                      2909.9    
+All Resources.BusyCost                      2909.9    
+All Resources.IdleCost                      1827.8    
 All Resources.UsageCost                     .00000    
-All Resources.TotalCost                     76.235    
-System.TotalCost                            76.235    
-System.NumberOut                            88.000    
+All Resources.TotalCost                     4737.7    
+System.TotalCost                            4737.7    
+System.NumberOut                            135.00    
 
 
-Simulation run time: 1.23 minutes.
+Simulation run time: 0.27 minutes.
 Simulation run complete.
